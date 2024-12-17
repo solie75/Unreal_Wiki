@@ -4,21 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "9fc46294b92e9622",
+        "id": "99d761be3a2e5318",
         "type": "tabs",
         "children": [
           {
-            "id": "00c4e18431714889",
+            "id": "8ce1f60cc4e8717e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/12/12-16.md",
+                "file": "Obsidian/Skin 변경.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12-16"
+              "title": "Skin 변경"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c2007d4294d7d7f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d6cbe7ecbee92372",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian/폴더 커스텀 정렬.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "폴더 커스텀 정렬"
             }
           }
         ]
@@ -77,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 235.5
   },
   "right": {
     "id": "00cd3b0bc039ffc3",
@@ -93,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TIL/12/12-16.md",
+                "file": "Obsidian/Skin 변경.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +123,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 12-16"
+              "title": "Backlinks for Skin 변경"
             }
           },
           {
@@ -139,10 +159,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TIL/12/12-16.md"
+                "file": "Obsidian/Skin 변경.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 12-16"
+              "title": "Outline of Skin 변경"
             }
           }
         ]
@@ -159,13 +179,26 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "00c4e18431714889",
+  "active": "8ce1f60cc4e8717e",
   "lastOpenFiles": [
-    "README.md",
+    "Obsidian/폴더 커스텀 정렬.md",
+    "Obsidian/Skin 변경.md",
+    "Obsidian/기타 설정..md",
+    "ETC/sortspec.md",
+    "ETC",
+    "sortspec.yaml",
+    "TIL/12/12-17 (Unreal Learning Kit 분석).md",
+    "Unreal",
     "TIL/12/12-16.md",
+    "Obsidian",
+    "Resource/Pasted image 20241217113902.png",
+    "Resource/Pasted image 20241217114510.png",
+    "Resource",
+    "README.md",
     "TIL/12",
     "TIL"
   ]
