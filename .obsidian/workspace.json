@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/12/12-16.md",
+                "file": "TIL/12/12-17.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12-16"
+              "title": "12-17"
             }
           }
         ],
@@ -180,6 +180,7 @@
   },
   "active": "efc638871d8fd958",
   "lastOpenFiles": [
+    "TIL/12/12-16.md",
     "TIL/12/12-17.md",
     "Obsidian/기타_설정.md",
     "Obsidian/폴더_커스텀_정렬.md",
@@ -190,7 +191,6 @@
     "Pasted.md",
     "Image/Unreal/Material_Change.png",
     "Image/Unreal/gizmo_shortcut.png",
-    "TIL/12/12-16.md",
     "Image/Obsidian/Pasted image 20241217222531.png",
     "Image/Obsidian/Material_Change.png",
     "Image/Unreal/Pasted image 20241217113902.png",
