@@ -1,8 +1,6 @@
 {
   "theme": "obsidian",
-  "cssTheme": "Minimal",
+  "cssTheme": "",
   "accentColor": "#407fa0",
-  "enabledCssSnippets": [
-    "custom-header-size"
-  ]
+  "enabledCssSnippets": []
 }

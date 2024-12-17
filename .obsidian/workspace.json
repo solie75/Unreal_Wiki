@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/Skin 변경.md",
-                "mode": "preview",
+                "file": "TIL/12/12-17 (Unreal Learning Kit 분석).md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Skin 변경"
+              "title": "12-17 (Unreal Learning Kit 분석)"
             }
           }
         ]
@@ -166,21 +166,27 @@
   "active": "34fadf48bfd77938",
   "lastOpenFiles": [
     "Obsidian/폴더 커스텀 정렬.md",
-    "Obsidian/기타 설정.md",
     "TIL/12/12-17 (Unreal Learning Kit 분석).md",
+    "Image/Unreal/Material_Change.png",
+    "Image/Obsidian/Pasted image 20241217222531.png",
+    "Image/Obsidian/custom_sort.png",
+    "Image/Unreal/gizmo_pannel.png",
+    "Obsidian/Github 웹사이트 상에서 이미지 출력.md",
+    "Obsidian/기타 설정.md",
+    "Pasted.md",
+    "Image/Obsidian/Material_Change.png",
     "Obsidian/Skin 변경.md",
+    "Image/Unreal/Pasted image 20241217113902.png",
+    "Image/Unreal/Pasted image 20241217114510.png",
+    "TIL/12/12-16.md",
     "ETC/sortspec.md",
-    "Resource/Unreal/Pasted image 20241217113902.png",
-    "Resource/Unreal/Pasted image 20241217114510.png",
-    "Resource/Obsidian/Pasted image 20241217222531.png",
-    "Resource/Unreal",
-    "Resource/Obsidian",
+    "Image/Unreal",
+    "Image/Obsidian",
     "ETC",
     "sortspec.yaml",
     "Unreal",
-    "TIL/12/12-16.md",
     "Obsidian",
-    "Resource",
+    "Image",
     "README.md",
     "TIL/12",
     "TIL"
