@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/12/12-20.md",
+                "file": "Obsidian/폴더_커스텀_정렬.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12-20"
+              "title": "폴더_커스텀_정렬"
             }
           }
         ]
@@ -165,8 +165,11 @@
   },
   "active": "dd33171f4bd3bde8",
   "lastOpenFiles": [
-    "TIL/12/12-19.md",
+    "Obsidian/마크다운 수식 문법.md",
+    "Image/Obsidian/custom_sort.png",
+    "TIL/12/12-21.md",
     "TIL/12/12-20.md",
+    "TIL/12/12-19.md",
     "TIL/12/12-18.md",
     "TIL/12/12-17.md",
     "TIL/12/12-16.md",
@@ -180,7 +183,6 @@
     "Image/TIL/InputAction.png",
     "Image/TIL/Blueprint_RockScissorsPaper.png",
     "Obsidian/폴더_커스텀_정렬.md",
-    "Image/TIL/Blueprint_Text_Game_Attack1.png",
     "Image/TIL",
     "Obsidian/Github_웹사이트_상에서_링크.md",
     "Obsidian/기타_설정.md",
