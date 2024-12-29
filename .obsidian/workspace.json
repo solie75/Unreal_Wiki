@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 235.5,
+    "collapsed": true
   },
   "right": {
     "id": "00cd3b0bc039ffc3",
@@ -165,10 +166,10 @@
   },
   "active": "dd33171f4bd3bde8",
   "lastOpenFiles": [
+    "TIL/12/12-24.md",
+    "TIL/12/12-23.md",
     "TIL/12/12-26.md",
     "TIL/12/12-27.md",
-    "TIL/12/12-23.md",
-    "TIL/12/12-24.md",
     "TIL/12/12-20.md",
     "TIL/12/12-19.md",
     "Obsidian/마크다운 수식 문법.md",
