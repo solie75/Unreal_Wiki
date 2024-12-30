@@ -6,8 +6,6 @@ using string = std::basic_string<char, std::char_traits<char>, std::allocator<ch
 - string 은 char 을 저장한다 -> string 은 char 배열이다.
 # operator \[ ]
 
-^fd96f7
-
 ```c++
 int main()
 {
