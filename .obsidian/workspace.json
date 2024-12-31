@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/12/12-30.md",
+                "file": "TIL/12/12-31.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "12-30"
+              "title": "12-31"
             }
           },
           {
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -206,10 +206,14 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "f7181bfc13f26050",
+  "active": "6a324be48836bc3e",
   "lastOpenFiles": [
     "TIL/12/12-30.md",
     "c++/STL/String.md",
+    "TIL/12/12-31.md",
+    "c++/STL/Algorithm.md",
+    "c++/STL/Vector.md",
+    "Obsidian/Skin_변경.md",
     "c++/STL/String^operate[].md",
     "TIL/12/12-24.md",
     "TIL/12/12-19.md",
@@ -238,7 +242,6 @@
     "Image/TIL",
     "Obsidian/Github_웹사이트_상에서_링크.md",
     "Obsidian/기타_설정.md",
-    "Obsidian/Skin_변경.md",
     "ETC/sortspec.md",
     "Pasted.md",
     "Image/Unreal",
