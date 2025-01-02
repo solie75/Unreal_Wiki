@@ -143,3 +143,168 @@ abcdefghij
 567
 hij
 ```
+
+# append
+
+기존 문자열의 끝에 다른 문자열이나 문자 등을 추가. 필요에 따라 메모리 재할당이 발생할 수 있다. 이때 [reserve](#reserve) 로 미리 용량을 할당하면 성능을 더욱 최적화 할 수 있다.
+
+```c++
+string.append(arg);
+```
+
+- 변경된 문자열에 대한 참조(\*this) 를 반환한다. 이를 통해 chaining 이 가능하다.
+
+```c++
+string str = "aaa";
+string str2 = "zzz";
+str.append("bbb").append("ccc").append(str2);
+cout << str;
+```
+
+```c++
+// 결과
+aaabbbccczzz
+```
+
+- 문자 반복 추가
+	- 하나의 문자를 여러개 반복해서 추가할 수 있다.
+```c++
+string str = "aaa";
+str.append(3, 'P');
+cout << str;
+```
+
+```c++
+// 결과
+aaaPPP
+```
+
+- 문자열의 특정 부분 추가
+	1. 
+```c++
+string str = "aaa";
+str.append("player", 3);
+cout << str;
+```
+
+```c++
+// 결과
+aaapla
+```
+	2.
+```c++
+string str = "aaa";
+string str2 = "player Weapon";
+str.append(str2, 3, 6);
+cout << str;
+```
+
+```c++
+// 결과
+aaayer We
+```
+
+- + 연산자와의 비교
+	- \+ 연산자는 두 문자열을 결합하여 새로운 문자열을 생성하는 것이다. 기존 문자열에 새로운 문자열을 추가하는 식인 append 보다 새롭게 생성하는 + 연산자가 자원을 많이 사용한다.
+	- 체이닝이 불가능하다.
+	- -> 따라서 반복 작업등은 append 를 사용하는 것이 좋다.
+	- append 와 + 의 비교 코드
+```c++
+int main() {
+    const int iterations = 100000;
+    std::string base = "Hello";
+
+    // Using append
+    auto start = std::chrono::high_resolution_clock::now();
+    std::string result1 = base;
+    for (int i = 0; i < iterations; ++i) {
+        result1.append(" World");
+    }
+    auto end = std::chrono::high_resolution_clock::now();
+    std::cout << "Append Time: "
+        << std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count()
+        << " ms\n";
+
+    // Using +
+    start = std::chrono::high_resolution_clock::now();
+    std::string result2 = base;
+    for (int i = 0; i < iterations; ++i) {
+        result2 = result2 + " World";
+    }
+    end = std::chrono::high_resolution_clock::now();
+    std::cout << "Plus Time: "
+        << std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count()
+        << " ms\n";
+
+    return 0;
+}
+```
+
+```c++
+// 결과
+Append Time: 5 ms
+Plus Time: 1524 ms
+// 거의 1.5 초 차이가 발생한다.
+```
+
+# reserve
+
+문자열이 내부적으로 사용하는 메모리 용량 을 미리 설정하는데 사용된다.
+
+```c++
+void string::reserve(size_t new_capacity);
+```
+new_capacity 가 현재 용량보다 작으면 용량은 변경되지 않는다.
+
+```c++
+string str = "PlayerName";
+cout << "capacity : " << str.capacity() << ", size : " << str.size() << "\n";
+
+str.reserve(20);
+cout << "capacity : " << str.capacity() << ", size : " << str.size();
+```
+
+```c++
+// 결과
+capacity : 15, size : 10
+capacity : 31, size : 10
+```
+
+- reserve 사용 유무 차이
+```c++
+ const int iterations = 1000000;
+
+ // Without reserve
+ auto start = std::chrono::high_resolution_clock::now();
+ std::string s1;
+ for (int i = 0; i < iterations; ++i) {
+     s1 += "a";
+ }
+ auto end = std::chrono::high_resolution_clock::now();
+ std::cout << "Without reserve: "
+     << std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count()
+     << " ms\n";
+
+ // With reserve
+ start = std::chrono::high_resolution_clock::now();
+ std::string s2;
+ s2.reserve(iterations); // 미리 충분한 메모리 확보
+ for (int i = 0; i < iterations; ++i) {
+     s2 += "a";
+ }
+ end = std::chrono::high_resolution_clock::now();
+ std::cout << "With reserve: "
+     << std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count()
+     << " ms\n";
+
+ return 0;
+```
+
+```c++
+// 결과
+Without reserve: 28 ms
+With reserve: 31 ms
+```
+
+[high_resolution_clock](/c++/STL/Chrono#high_resolution_clock)
+
