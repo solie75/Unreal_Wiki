@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/2025/1/01-02.md",
+                "file": "TIL/2025/1/01-03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-02"
+              "title": "01-03"
             }
           }
         ]
@@ -165,9 +165,10 @@
   },
   "active": "6a324be48836bc3e",
   "lastOpenFiles": [
+    "TIL/2025/1/01-02.md",
+    "TIL/2025/1/01-03.md",
     "TIL/2024/12/12-31.md",
     "c++/Basic/operator.md",
-    "TIL/2025/1/01-02.md",
     "Obsidian/기타_설정.md",
     "Obsidian/Github_웹사이트_상에서_링크.md",
     "c++/Basic/Untitled",
@@ -200,7 +201,6 @@
     "Obsidian/폴더_커스텀_정렬.md",
     "Image/Obsidian/custom_sort.png",
     "TIL/2024/12/12-17.md",
-    "TIL/2024/12/12-16.md",
     "Image/TIL/AddMappingContext.png",
     "Image/TIL/InputMoveValueInThridPersonPoj.png",
     "Image/TIL/InputMappingContextInThirdPersonProj.png",
