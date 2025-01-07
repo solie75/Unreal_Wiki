@@ -13,12 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/2025/1/01-06.md",
+                "file": "Unreal/Project/Unreal_Assignment_1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-06"
+              "title": "Unreal_Assignment_1"
+            }
+          },
+          {
+            "id": "a9eaef84efcc7078",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -52,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Material",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -165,8 +175,18 @@
   },
   "active": "6a324be48836bc3e",
   "lastOpenFiles": [
-    "TIL/2024/12/12-31.md",
+    "TIL/2025/1/01-07.md",
     "Unreal/Class Specifiers.md",
+    "Unreal/Project/Unreal_Assignment_1.md",
+    "Unreal/Project/Unreal.md",
+    "Unreal/Project/Unreal-Assignment-1.md",
+    "TIL/2025/1/01-06.md",
+    "TIL/2024/12/12-17.md",
+    "Unreal/Project",
+    "TIL/2024/12/12-31.md",
+    "c++/STL/String.md",
+    "c++/Basic/function.md",
+    "c++/Basic/operator.md",
     "Image/Unreal/With_Blueprintable.png",
     "Image/Unreal/Without_Blueprintable.png",
     "TIL/2024/12/12-18.md",
@@ -176,24 +196,16 @@
     "TIL/2024/12/12-23.md",
     "TIL/2024/12/12-20.md",
     "TIL/2024/12/12-19.md",
-    "TIL/2025/1/01-06.md",
     "Obsidian/Skin_변경.md",
     "Obsidian/Github_웹사이트_상에서_링크.md",
     "TIL/2025/1/01-03.md",
     "c++/STL/Vector.md",
-    "c++/Basic/function.md",
-    "c++/Basic/operator.md",
     "TIL/2025/1/01-02.md",
     "TIL/2024/12/12-30.md",
     "Obsidian/기타_설정.md",
     "c++/Basic/Untitled",
     "c++/Basic",
     "c++/STL/Chrono.md",
-    "c++/STL/String.md",
-    "c++/STL/Numeric.md",
-    "c++/STL/Algorithm.md",
-    "Image/TIL/Vector.md",
-    "reserve.md",
     "TIL/2025",
     "TIL/2024",
     "TIL/2025/1",
@@ -208,7 +220,6 @@
     "Image/TIL/InputMoveValueToMovement.png",
     "Image/TIL/InputRotateValueToController.png",
     "Image/TIL/InputMappingContext.png",
-    "Pasted image 20241219172352.png",
-    "Image/TIL"
+    "Pasted image 20241219172352.png"
   ]
 }
