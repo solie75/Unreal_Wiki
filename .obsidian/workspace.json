@@ -20,16 +20,6 @@
               "icon": "lucide-file",
               "title": "Unreal_Assignment_1"
             }
-          },
-          {
-            "id": "a9eaef84efcc7078",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
           }
         ]
       }
@@ -62,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Material",
+                "query": "정렬",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -176,8 +166,17 @@
   "active": "6a324be48836bc3e",
   "lastOpenFiles": [
     "TIL/2025/1/01-07.md",
+    "TIL/2025/1/01-08.md",
+    "Unreal/Graphic/Material.md",
     "Unreal/Class Specifiers.md",
+    "TIL/2025/1/01-02.md",
+    "Obsidian/마크다운 수식 문법.md",
     "Unreal/Project/Unreal_Assignment_1.md",
+    "Image/Unreal/Tiling_Compare_for_Value.png",
+    "Obsidian/기타_설정.md",
+    "Image/Unreal/Tiling_Compare_for_UV.png",
+    "Unreal/Graphic",
+    "TIL/2024/12/12-27.md",
     "Unreal/Project/Unreal.md",
     "Unreal/Project/Unreal-Assignment-1.md",
     "TIL/2025/1/01-06.md",
@@ -190,7 +189,6 @@
     "Image/Unreal/With_Blueprintable.png",
     "Image/Unreal/Without_Blueprintable.png",
     "TIL/2024/12/12-18.md",
-    "TIL/2024/12/12-27.md",
     "TIL/2024/12/12-26.md",
     "TIL/2024/12/12-24.md",
     "TIL/2024/12/12-23.md",
@@ -199,27 +197,19 @@
     "Obsidian/Skin_변경.md",
     "Obsidian/Github_웹사이트_상에서_링크.md",
     "TIL/2025/1/01-03.md",
-    "c++/STL/Vector.md",
-    "TIL/2025/1/01-02.md",
-    "TIL/2024/12/12-30.md",
-    "Obsidian/기타_설정.md",
     "c++/Basic/Untitled",
     "c++/Basic",
-    "c++/STL/Chrono.md",
     "TIL/2025",
     "TIL/2024",
     "TIL/2025/1",
     "c++/STL/String",
     "c++/STL/string",
     "c++/STL",
-    "c++",
     "Image/Obsidian/custom_sort.png",
     "Image/TIL/AddMappingContext.png",
     "Image/TIL/InputMoveValueInThridPersonPoj.png",
     "Image/TIL/InputMappingContextInThirdPersonProj.png",
     "Image/TIL/InputMoveValueToMovement.png",
-    "Image/TIL/InputRotateValueToController.png",
-    "Image/TIL/InputMappingContext.png",
-    "Pasted image 20241219172352.png"
+    "Image/TIL/InputRotateValueToController.png"
   ]
 }
