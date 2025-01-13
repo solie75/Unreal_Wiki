@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c++/WinAPI/function.md",
+                "file": "TIL/2025/1/01-13.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "function"
+              "title": "01-13"
             }
           }
         ]
@@ -165,13 +165,16 @@
   },
   "active": "6a324be48836bc3e",
   "lastOpenFiles": [
+    "Visual_Studio/file.md",
     "TIL/2025/1/01-13.md",
+    "Visual_Studio/Setting.md",
+    "c++/Visual_Studio/Setting.md",
+    "c++/Visual_Studio",
     "c++/WinAPI/function.md",
     "c++/STL/Vector.md",
     "c++/STL/String.md",
     "c++/Basic/function.md",
     "c++/WinAPI",
-    "Visual_Studio/Setting.md",
     "Unreal/Project/Unreal_Assignment_1.md",
     "Visual_Studio",
     "TIL/2025/1/01-08.md",
@@ -194,8 +197,6 @@
     "Unreal/Graphic",
     "TIL/2024/12/12-27.md",
     "Unreal/Project/Unreal.md",
-    "Unreal/Project/Unreal-Assignment-1.md",
-    "TIL/2025/1/01-06.md",
     "Unreal/Project",
     "Image/Unreal/With_Blueprintable.png",
     "Image/Unreal/Without_Blueprintable.png",
@@ -204,7 +205,6 @@
     "TIL/2025",
     "TIL/2024",
     "TIL/2025/1",
-    "c++/STL/String",
     "Image/Obsidian/custom_sort.png",
     "Image/TIL/AddMappingContext.png",
     "Image/TIL/InputMoveValueInThridPersonPoj.png",
