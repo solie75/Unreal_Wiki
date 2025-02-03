@@ -151,3 +151,21 @@ public:
 런타임이 아닌 생성자(객체 생성 시점) 에서 에셋을 로드한다.
 load 된 파일을 ConstructorHelpers::FObjectFinder 구조체의 TObjectPtr<\T> Object 에 저장한다.
 게임 중 유일한 객체에 유일한 에셋을 1회 로딩하는 경우에는 static 으로 선언하지 않겠지만 대부분의 경우 static 으로 선언하여 에셋 로드의 중복을 방지하고 비용이 큰 에셋 로딩 작업을 줄일 수 있도록 한다.
+
+# 함수 정리
+
+CreateDefaultSubObject 
+
+USceneComponent
+
+SetRootComponent
+
+SetUpAttachment
+
+ConstructorHelpers
+
+Succeeded
+
+SetStaticMesh
+
+SetMaterial

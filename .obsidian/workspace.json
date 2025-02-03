@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/2025/1/01-24.md",
+                "file": "TIL/2025/2/02-03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-24"
+              "title": "02-03"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -52,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Unreal build Tool",
+                "query": "Input Mapping Context",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 235.5,
+    "collapsed": true
   },
   "right": {
     "id": "00cd3b0bc039ffc3",
@@ -165,33 +167,35 @@
   },
   "active": "1d90d422a08dae14",
   "lastOpenFiles": [
-    "Unreal/Macro.md",
-    "TIL/2025/1/01-24.md",
+    "c++/STL/Algorithm.md",
     "Unreal/Function.md",
-    "Unreal/Class Specifiers.md",
-    "Unreal/Project/Text_RPG.md",
-    "Unreal/Project/Unreal_Assignment_1.md",
+    "c++/WinAPI/function.md",
+    "c++/STL/Numeric.md",
+    "TIL/2025/2/02-03.md",
+    "TIL/2024/12/12-19.md",
+    "TIL/2024/12/12-20.md",
+    "TIL/2024/12/12-23.md",
+    "TIL/2024/12/12-24.md",
+    "TIL/2025/2",
+    "TIL/2025/1/01-02.md",
+    "TIL/2025/1/01-30.md",
+    "TIL/2024/12/12-18.md",
+    "TIL/2024/12/12-26.md",
+    "TIL/2024/12/12-31.md",
+    "TIL/2024/12/12-30.md",
+    "TIL/2024/12/12-27.md",
+    "TIL/2024/12/12-17.md",
+    "TIL/2025/1/01-27.md",
+    "TIL/2025/1/01-24.md",
     "TIL/2025/1/01-23.md",
     "TIL/2025/1/01-22.md",
-    "TIL/2025/1/01-20.md",
     "TIL/2025/1/01-21.md",
-    "Unreal/Graphic/Material.md",
-    "c++/STL/Algorithm.md",
-    "c++/STL/Set.md",
-    "c++/STL/String.md",
-    "c++/Algorithm.md",
-    "TIL/2024/12/12-27.md",
-    "TIL/2024/12/12-23.md",
-    "TIL/2024/12/12-16.md",
-    "TIL/2025/1/01-02.md",
-    "TIL/2024/12/12-17.md",
-    "KPT (프로젝트 회고).md",
+    "TIL/2025/1/01-20.md",
     "TIL/2025/1/01-13.md",
-    "Visual_Studio/file.md",
-    "Visual_Studio/Setting.md",
-    "c++/Visual_Studio/Setting.md",
+    "TIL/2025/1/01-08.md",
+    "TIL/2025/1/01-07.md",
+    "Image/Unreal/SetLocationNode.png",
     "c++/Visual_Studio",
-    "c++/WinAPI/function.md",
     "c++/WinAPI",
     "Visual_Studio",
     "Image/Unreal/Tiling_Compare_for_Value.png",
@@ -204,12 +208,10 @@
     "c++/Basic",
     "TIL/2025",
     "TIL/2024",
-    "TIL/2025/1",
     "Image/Obsidian/custom_sort.png",
     "Image/TIL/AddMappingContext.png",
     "Image/TIL/InputMoveValueInThridPersonPoj.png",
     "Image/TIL/InputMappingContextInThirdPersonProj.png",
-    "Image/TIL/InputMoveValueToMovement.png",
-    "Image/TIL/InputRotateValueToController.png"
+    "Image/TIL/InputMoveValueToMovement.png"
   ]
 }
