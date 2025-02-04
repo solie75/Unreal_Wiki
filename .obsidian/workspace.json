@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/2025/2/02-03.md",
+                "file": "TIL/2025/2/02-04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-03"
+              "title": "02-04"
             }
           }
         ]
@@ -167,11 +167,15 @@
   },
   "active": "1d90d422a08dae14",
   "lastOpenFiles": [
+    "Image/Unreal/Idle-WalkRun_Trans_State.md",
+    "TIL/2025/2/02-04.md",
+    "TIL/2024/12/12-31.md",
+    "Image/Unreal/Idle-WalkRun_Trans_State.png",
+    "TIL/2025/2/02-03.md",
     "c++/STL/Algorithm.md",
     "Unreal/Function.md",
     "c++/WinAPI/function.md",
     "c++/STL/Numeric.md",
-    "TIL/2025/2/02-03.md",
     "TIL/2024/12/12-19.md",
     "TIL/2024/12/12-20.md",
     "TIL/2024/12/12-23.md",
@@ -181,7 +185,6 @@
     "TIL/2025/1/01-30.md",
     "TIL/2024/12/12-18.md",
     "TIL/2024/12/12-26.md",
-    "TIL/2024/12/12-31.md",
     "TIL/2024/12/12-30.md",
     "TIL/2024/12/12-27.md",
     "TIL/2024/12/12-17.md",
@@ -192,8 +195,6 @@
     "TIL/2025/1/01-21.md",
     "TIL/2025/1/01-20.md",
     "TIL/2025/1/01-13.md",
-    "TIL/2025/1/01-08.md",
-    "TIL/2025/1/01-07.md",
     "Image/Unreal/SetLocationNode.png",
     "c++/Visual_Studio",
     "c++/WinAPI",
@@ -211,7 +212,6 @@
     "Image/Obsidian/custom_sort.png",
     "Image/TIL/AddMappingContext.png",
     "Image/TIL/InputMoveValueInThridPersonPoj.png",
-    "Image/TIL/InputMappingContextInThirdPersonProj.png",
-    "Image/TIL/InputMoveValueToMovement.png"
+    "Image/TIL/InputMappingContextInThirdPersonProj.png"
   ]
 }
