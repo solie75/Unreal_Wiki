@@ -46,4 +46,30 @@ Size of set2
 - size() : 요소 개수 반환
 - clear() : 모든 요소 삭제
 - count() : 특정 값의 개수 반환 -> set 에서는 값이 하나 뿐이므로 0 또는 1을 반환.
+- lower_bound(value) : 지정된 값 이상의 첫 번 째 요소를 반환
+- upper_bound(value) : 지정된 값보다 큰 첫 번째 요소를 반환
 
+
+# Multiset
+
+동일 값(키) 중복을 허용한다.
+
+```c++
+multiset<int> MS;
+
+MS.insert(10);
+MS.insert(20);
+MS.insert(10);
+MS.insert(30);
+MS.insert(10);
+
+// MS 는 순서대로 10, 10, 10, 20, 30
+int Temp = MS.count(10); // Temp 는 3
+MS.erase(MS.find(10));
+// MS 는 순서대로 10, 10, 20, 30
+```
+
+- insert
+- count
+- find
+- lower_bound(), upper_bound()
