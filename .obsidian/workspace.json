@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/2025/2/02-07.md",
+                "file": "TIL/2025/2/02-10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-07"
+              "title": "02-10"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/2025/2/02-03.md",
+                "file": "c++/STL/Algorithm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-03"
+              "title": "Algorithm"
             }
           },
           {
@@ -208,8 +208,11 @@
   },
   "active": "1d90d422a08dae14",
   "lastOpenFiles": [
-    "TIL/2025/2/02-03.md",
+    "c++/STL/Algorithm.md",
+    "TIL/2025/2/02-10.md",
+    "c++/STL/queue.md",
     "c++/STL/Numeric.md",
+    "TIL/2025/2/02-03.md",
     "TIL/2025/2/02-07.md",
     "c++/STL/Set.md",
     "Untitled.md",
@@ -224,7 +227,6 @@
     "c++/Basic/function.md",
     "TIL/2025/2/02-06.md",
     "c++/STL/Map.md",
-    "c++/STL/Algorithm.md",
     "TIL/2025/2/02-05.md",
     "Unreal/Macro.md",
     "TIL/2025/1/01-24.md",
@@ -241,7 +243,6 @@
     "TIL/2024/12/12-24.md",
     "TIL/2025/2",
     "TIL/2025/1/01-02.md",
-    "TIL/2025/1/01-30.md",
     "Image/Unreal/SetLocationNode.png",
     "c++/Visual_Studio",
     "c++/WinAPI",

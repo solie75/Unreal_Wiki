@@ -12,7 +12,7 @@ template<class ForwardIt, class Compare>
 ForwardIt min_element(ForwardIt first, ForwardIt last, Compare comp);
 ```
 
-# lecixographical_compare
+# lexicographical_compare
 
 ```c++
 template< class InputIt1, class InputIt2, class Compare >  
@@ -58,11 +58,33 @@ sort() 와 같아 보이지만 sort 는 같은 요소들이 상대적 순서가 
 범위 내의 요소들을 재배치하여, n 번째 위치에 올 요소가 정확히 그 자리에 오도록 한다. 이때 n 번째 요소보다 작은 값들은 그 앞쪽에, 큰 값들은 그 뒤쪽에 위치하게 된다. 순서가 완전히 정렬되지는 않기 때문에, n 번째 요소만을 찾거나 k 번째 작은 원소를 찾을 때 유용하다.
 
 ```c++
+void nth_element(RandomAccessIterator first, RandomAccessIterator nth, RandomAccessIterator last);
+```
+- first : 배열 시작.
+- nth : n 번째 위치
+- last : 배열의 끝
+
+```c++
 vector<int> vec = { 9, 3, 5, 1, 4, 8, 10, 34, 44, 55, 66, 15, 73, 11};
 vector<int>::iterator iter = vec.begin() + 2;
 nth_element(vec.begin(), iter, vec.end());
 ```
 vec\[3] 에 정확히 vec 에서 3번째로 작은 수가 들어가게 된다 그 앞과 뒤는 정렬됐는지 확실치 않다. iter 는 이제 vec 에서 3번 째로 작은 수를 가리키므로 사용하면 된다.
+
+- 중앙 값 찾기
+```c++
+int main()
+{
+	vector<int> vec = { 9, 2, 7, 4, 1, 5, 8};
+
+	int mid = vec.size() / 2;
+	nth_element(vec.begin(), vec.begin() + mid, vec.end());
+
+	cout << vec[mid];
+}
+// 결과
+5
+```
 
 # binary_search
 
@@ -141,3 +163,80 @@ vector<int>::iterator iter = unique(vec.begin(), vec.end());
 vec.erase(iter, vec.end());
 // 이때 vec 은 {1, 2, 3, 4, 5} 이다.
 ```
+
+# next_permutation
+
+사전식 순서의 다음 순열을 생성하는 함수. 현재 배열 (또는 문자열) 의 다음 순열을 자동으로 생성한다
+
+```c++
+int main()
+{
+	vector<int> vec = { 1, 2, 3 };
+
+	do
+	{
+		for (int i = 0; i < vec.size(); i++)
+		{
+			cout << vec[i] << " "; 
+		}
+		cout << "\n";
+	} while (next_permutation(vec.begin(), vec.end()));
+}
+
+// 결과
+1 2 3
+1 3 2
+2 1 3
+2 3 1
+3 1 2
+3 2 1
+```
+가장 큰 순열을 찾기 전까지 다음 순열을 만든다.
+더 큰 순열이 존재하는 지에 대한 bool 값을 반환한다.
+마지막 순열 3 2 1 에 도달하면 다시 1 2 3 으로 돌아간다.
+
+# prev_permutation
+
+이전 순열 찾기. 사전식 순서에서 이전 순열을 찾는 함수이다.
+
+```c++
+int main()
+{
+	vector<int> vec = { 3, 2, 1 };
+
+	do
+	{
+		for (int num : vec)
+		{
+			cout << num << " ";
+		}
+		cout << "\n";
+	} while (prev_permutation(vec.begin(), vec.end()));
+}
+// 결과
+3 2 1
+3 1 2
+2 3 1
+2 1 3
+1 3 2
+1 2 3
+```
+
+```c++
+int main()
+{
+	vector<int> vec = { 3, 2, 1 };
+
+	do
+	{
+		for (int num : vec)
+		{
+			cout << num << " ";
+		}
+		cout << "\n";
+	} while (next_permutation(vec.begin(), vec.end()));
+}
+// 결과
+3 2 1
+```
+3 2 1 보다 높은 사전식 수열이 없기 때문에 3 2 1 만을 출력한다.
