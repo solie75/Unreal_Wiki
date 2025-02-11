@@ -51,3 +51,4 @@ class UE_ASSIGNMENT1_API UTest1 : public UObject
 
 ![[With_Blueprintable.png]]
 
+# Sweep vs Collider

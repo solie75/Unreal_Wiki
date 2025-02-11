@@ -152,20 +152,126 @@ public:
 load 된 파일을 ConstructorHelpers::FObjectFinder 구조체의 TObjectPtr<\T> Object 에 저장한다.
 게임 중 유일한 객체에 유일한 에셋을 1회 로딩하는 경우에는 static 으로 선언하지 않겠지만 대부분의 경우 static 으로 선언하여 에셋 로드의 중복을 방지하고 비용이 큰 에셋 로딩 작업을 줄일 수 있도록 한다.
 
+### GetWorldTimerManager().SetTimer() 
+
+특정 함수를 일정 시간 후에 실행하거나, 반복 실행할 수 있도록 설정한다.
+```c++
+void SetTimer( 
+	FTimerHandle& InOutHandle, 
+	UObject* InObj, 
+	FName InFunctionName, 
+	float InRate, 
+	bool InbLoop = false, 
+	float InFirstDelay = 0.0f 
+);
+```
+- FTimerHandle& InOutHandle : 타이머 핸들 (타이머 제어용 변수)
+- UObject* InObj : 함수를 실행할 객체(this 사용 가능)
+- FName InFunctionName : 실행할 함수 이름
+- float InRate : 실행 주기 (초 단위)
+- bool InbLoop : true (반복실행), false (한 번만 실행);
+- float InFirstDelay : 첫 실행까지 대기 시간 (default 0.0f)
+
+- 한번 실행 예시
+	- StartTimer() 를 호출한 뒤 3 초 후 PrintMessage 를 한 번만 호출하며 반복하지 않는다.
+```c++
+void AMyActor::StartTimer() 
+{ 
+	GetWorldTimerManager().SetTimer(
+		TimerHandle, 
+		this, 
+		FName("PrintMessage"), 
+		3.0f, 
+		false
+	); 
+}
+void AMyActor::PrintMessage() 
+{ 
+	UE_LOG(LogTemp, Warning, TEXT("3초 후 실행됨!")); 
+}
+```
+
+- 반복 실행 예시
+	- StartLoopTimer() 호출 이후 2 초마다 PrintMessage 함수 호출.
+```c++
+void AMyActor::StartLoopTimer()
+{ 
+	GetWorldTimerManager().SetTimer(
+		TimerHandle, 
+		this, 
+		FName("PrintMessage"), 
+		2.0f, 
+		true
+	); 
+}
+```
+
+### AddActorWorldOffset()
+
+```c++
+void AddActorWorldOffset(
+    FVector DeltaLocation, 
+    bool bSweep = false, 
+    FHitResult* OutSweepHitResult = nullptr, 
+    ETeleportType Teleport = ETeleportType::None
+);
+```
+
+- DeltaLocation : 이동할 오프셋
+- bSweep : ture 이면 충돌 감지 (Sweep) 활성화
+- OutSweepHitResult : Sweep 이 활성화된 경우 , 충돌 정보를 저장.
+- Teleport : ETeleportType::None(기본값) 또는 ETeleportType::TeleportPhysics 사용 가능.
+	- TeleportPhysics 를 사용하면 물리 연산 없이 순간 이동 가능.
+		- 물리 엔진을 무시하고 액터를 이동시키므로 빠르게 순간이동 가능.
+
+- x 방향으로 100 만큼 이동.
+```c++
+AddActorWorldOffset(FVector(100.0f, 0.f, 0.f));
+```
+
+
 # 함수 정리
 
-CreateDefaultSubObject 
+- CreateDefaultSubObject 
 
-USceneComponent
+- USceneComponent
 
-SetRootComponent
+- SetRootComponent
 
-SetUpAttachment
+- SetUpAttachment
 
-ConstructorHelpers
+- ConstructorHelpers
 
-Succeeded
+- Succeeded
 
-SetStaticMesh
+- SetStaticMesh
 
-SetMaterial
+- SetMaterial
+
+- GetActorLocation
+
+- GetActorScale3D()
+	- FVector 반환 (x, y, z) 축의 크기를 나타낸다.
+```c++
+FVector GetActorScale3D() const;
+```
+
+- SetActorScale3D() : 스케일 변경
+
+- AddActorLocalRotation() : Actor 의 Rotation 현재 값에 일정 값을 더하여 설정한다.
+
+- GetWorld()
+
+-  GetTimeSeconds() : 현재 월드의 경과 시간을 반환. 즉, 게임이 시작된 후 현재까지의 시간을 초 단위로 반환.
+
+
+
+
+### 회전과 이동에 관련된 모든 함수들 모음
+
+- GetRelativeRotation
+- SetRelativeRotation
+- AddActorLocalRotation
+- GetActorScale3D
+- GetActorLocation
+- AddActorWorldOffset

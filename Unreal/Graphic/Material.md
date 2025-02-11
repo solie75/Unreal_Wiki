@@ -17,3 +17,24 @@
 	- Tiling 노드의 입력 값을 5 로 고정한 상태에서, 왼쪽 벽은 (UTiling = 1.0, VTiling =  0.5) 을 입력하고, 오른쪽 벽은 (UTiling = 0.5, VTiling =  1.0) 을 입력한 결과이다.
 ![UV 입력 값에 따른 Tiling 비교](/Image/Unreal/Tiling_Compare_for_UV.png)
 
+# Dynamic_Mateiral Instance
+
+- UMaterialInstanceDynamic
+	- 게임 실행 중에 색상, 텍스쳐, 숫자 값 등 변경 가능 하도록 하는 Material Instance
+```c++
+#include "Materials/MaterialInstanceDynamic.h"
+
+UMaterialInstanceDynamic* DynamicManterial = UMaterialInstanceDynamic::Create(DriginalMaterial, this)
+```
+- CreateAndSetMaterialInstanceDynamic()
+	- 기존의 Static Material 을 Dynamic Material 로 변환 및 해당 메쉬에 설정. Create 함수 호출 없이 기존 머터리얼을 즉시 변환하여 적용.
+```c++
+UMaterialInstanceDynamic* CreateAndSetMaterialInstanceDynamic(int32 ElementIndex);
+```
+- SetVectorParameterValue()
+	- UMaterialInstanceDynamic 의 Vector 파라미터 값 변경.
+	- 보통 색상 값 설정.
+	- ParameterName 은 머터리얼에서 설정한 Vector Parameter 이름과 일치해야한다.
+```c++
+void SetVectorParameterValue(FName ParameterName, FLinearColor Value);
+```
