@@ -52,3 +52,27 @@ class UE_ASSIGNMENT1_API UTest1 : public UObject
 ![[With_Blueprintable.png]]
 
 # Sweep vs Collider
+
+# Interface
+
+### Interface 클래스 기본 구조.
+
+```c++
+#pragma once
+
+#include "CoreMinimal.h"
+#include "UObject/Interface.h"
+#include "ItemInterface.generated.h"
+
+UINTERFACE(MinimalAPI) // ... ㄱ)
+class UItemInterface : public UInterface
+{
+	GENERATED_BODY()
+};
+
+class SPARTAPROJECT_API IItemInterface
+{
+	GENERATED_BODY()
+};
+```
+.. ㄱ) MinimalAPI 는 최소한의 API 만 외부 모듈에서 사용가능하도록 설정(인터페이스만 공객하고 내부 구현은 숨기는 역할)한다.

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal/Function.md",
+                "file": "Unreal/Class Specifiers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Function"
+              "title": "Class Specifiers"
             }
           },
           {
@@ -107,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 235.5,
+    "collapsed": true
   },
   "right": {
     "id": "00cd3b0bc039ffc3",
@@ -195,14 +196,14 @@
   },
   "active": "7511c7a8c22b2eed",
   "lastOpenFiles": [
-    "Unreal/Function.md",
+    "Unreal/Class Specifiers.md",
     "TIL/2025/2/02-11.md",
+    "Unreal/Function.md",
     "Unreal/FMath.md",
     "Obsidian/기타_설정.md",
     "Unreal/Graphic/Material.md",
     "c++/STL/Set.md",
     "c++/Basic/function.md",
-    "Unreal/Class Specifiers.md",
     "UnrealDynamic.md",
     "c++/STL/Algorithm.md",
     "TIL/2025/2/02-10.md",
