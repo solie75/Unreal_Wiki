@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal/Project/Third_Person_Prototype/Chapter_13.md",
+                "file": "TIL/2025/2/02-03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter_13"
+              "title": "02-03"
             }
           }
         ]
@@ -166,9 +166,15 @@
   },
   "active": "4fda716ac141d09c",
   "lastOpenFiles": [
-    "TIL/2025/2/02-12.md",
-    "Unreal/Function.md",
+    "c++/STL/Algorithm.md",
+    "TIL/2025/2/02-03.md",
+    "TIL/2025/2/02-04.md",
+    "TIL/2025/2/02-05.md",
+    "TIL/2025/2/02-06.md",
     "Unreal/Project/Third_Person_Prototype/Chapter_13.md",
+    "TIL/2025/2/02-12.md",
+    "Image/Unreal/Idle-WalkRun_Trans_State.png",
+    "Unreal/Function.md",
     "Unreal/Feature/Event, Delegate.md",
     "Unreal/Class Specifiers.md",
     "Unreal/Macro.md",
@@ -182,7 +188,6 @@
     "Unreal/Project/Text_RPG.md",
     "Unreal/Project/Third_Person_Prototype",
     "Unreal/Project/Unreal_Assignment_1.md",
-    "c++/STL/Algorithm.md",
     "c++/STL/Chrono.md",
     "c++/STL/Map.md",
     "c++/STL/Numeric.md",
@@ -192,10 +197,6 @@
     "c++/STL/Set.md",
     "2025-02-12.md",
     "TIL/2025/2/02-10.md",
-    "TIL/2025/2/02-11.md",
-    "TIL/2025/2/02-07.md",
-    "Obsidian/기타_설정.md",
-    "c++/Basic/function.md",
     "Pasted image 20250207200514.png",
     "Pasted image 20250207200843.png",
     "Pasted image 20250207200643.png",
@@ -203,7 +204,6 @@
     "Pasted image 20250207200607.png",
     "Pasted image 20250207200549.png",
     "Image/Unreal/Main_States_In_Basic_Move.png",
-    "Image/Unreal/Idle-WalkRun_Trans_State.png",
     "TIL/2025/2",
     "Image/Unreal/SetLocationNode.png",
     "c++/Visual_Studio",
