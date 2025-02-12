@@ -76,3 +76,6 @@ class SPARTAPROJECT_API IItemInterface
 };
 ```
 .. ㄱ) MinimalAPI 는 최소한의 API 만 외부 모듈에서 사용가능하도록 설정(인터페이스만 공객하고 내부 구현은 숨기는 역할)한다.
+
+
+# Overlap vs Hit

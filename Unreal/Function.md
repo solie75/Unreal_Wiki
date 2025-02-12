@@ -229,6 +229,18 @@ void AddActorWorldOffset(
 AddActorWorldOffset(FVector(100.0f, 0.f, 0.f));
 ```
 
+# Tags.Add(""), ActorHasTag()
+
+Actor 에 tag 를 추가 하고 불러올 수 있다.
+
+```c++
+// 태그 추가
+(Actor 클래스)->Tags.Add("TagName");
+
+// 태그 불러오기
+(Actor 클래스)->ActorHasTag("TagName");
+```
+
 
 # 함수 정리
 

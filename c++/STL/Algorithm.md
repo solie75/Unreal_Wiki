@@ -151,9 +151,11 @@ vec.erase(iter, vec.end());
 
 # unique
 
+미리 정렬을 해주어야 한다.
 연속된 중복 요소들을 제거하여 유일한 값들로 재배열한다.
 컨테이너의 실제 크기를 줄이지 않고, 중복되지 않은 요소들을 앞쪽으로 모은다.
-반환된 iterator 는 논리적 끝을 나타내며 이후의 요소는 불특정한 값일 수 있다.
+
+반환된 iterator 는 논리적 끝을 나타내며 이후의 요소는 불특정한 값일 수 있다. 
 
 ```c++
 vector<int> vec{ 1, 2, 2, 3, 3, 3, 4, 5, 5 };
@@ -162,6 +164,77 @@ vector<int>::iterator iter = unique(vec.begin(), vec.end());
 // iter 는 두 번째 3. 즉, vec[5] 를 가리키고 있다.
 vec.erase(iter, vec.end());
 // 이때 vec 은 {1, 2, 3, 4, 5} 이다.
+```
+
+- 스스로 구현한 unique
+```c++
+vector<int>::iterator unique(vector<int>& _vec)
+{
+	if (_vec.begin() == _vec.end())
+	{
+		return _vec.end();
+	}
+
+	vector<int>::iterator iter1 = _vec.begin();
+	vector<int>::iterator iter2 = _vec.begin() + 1;
+
+	while (iter2 != _vec.end())
+	{
+		if (*iter1 != *iter2)
+		{
+			++iter1;
+			*iter1 = *iter2;
+		}
+		++iter2;
+	}
+
+	return iter1;
+}
+
+int main()
+{
+	vector<int> vec{ 1, 1, 2, 3, 3, 4, 5, 5 };
+	
+	vector<int>::iterator tempIter = unique(vec);
+
+	vec.erase(tempIter, vec.end());
+
+	cout << *tempIter << "\n";
+}
+```
+
+- 모범 코드
+```c++
+template <typename T>
+T custom_unique(T _first, T _last)
+{
+	if (_first == _last)
+	{
+		return _last;
+	}
+
+	T result = _first;
+	while (++_first != _last)
+	{
+		if (*result != *_first)
+		{
+			*(++result) = *_first;
+		}
+	}
+
+	return ++result;
+}
+
+int main()
+{
+	vector<int> vec{ 1, 1, 2, 3, 3, 4, 5, 5 };
+	
+	vector<int>::iterator tempIter = custom_unique(vec.begin(), vec.end());
+
+	vec.erase(tempIter, vec.end());
+
+	cout << *tempIter << "\n";
+}
 ```
 
 # next_permutation
