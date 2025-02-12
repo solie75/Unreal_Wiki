@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Visual_Studio/Setting.md",
+                "file": "Unreal/Project/Third_Person_Prototype/13_충돌.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Setting"
+              "title": "13_충돌"
             }
           }
         ],
@@ -181,6 +181,9 @@
   },
   "active": "c404eeeeb89b992a",
   "lastOpenFiles": [
+    "TIL/2025/2/02-12.md",
+    "Unreal/Project/Third_Person_Prototype/13_충돌.md",
+    "Visual_Studio/Setting.md",
     "Visual_Studio/file.md",
     "c++/WinAPI/function.md",
     "Pasted image 20250212171303.png",
@@ -204,10 +207,7 @@
     "Obsidian/마크다운 수식 문법.md",
     "Obsidian/기타_설정.md",
     "Unreal/Project/Unreal_Assignment_1.md",
-    "Unreal/Project/Third_Person_Prototype/Chapter_13.md",
     "Unreal/Project/Text_RPG.md",
-    "Unreal/Macro.md",
-    "Unreal/Library/FMath.md",
     "c++/TIL",
     "Image/Unreal/Idle-WalkRun_Trans_State.png",
     "Unreal/Library",
