@@ -306,5 +306,5 @@ Without reserve: 28 ms
 With reserve: 31 ms
 ```
 
-[high_resolution_clock](/c++/STL/Chrono#high_resolution_clock)
+[high_resolution_clock](/c++/STL/Chrono.md#high_resolution_clock)
 
