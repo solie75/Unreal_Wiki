@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/2025/2/02-03.md",
+                "file": "TIL/2025/2/02-13.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-03"
+              "title": "02-13"
             }
           },
           {
-            "id": "c404eeeeb89b992a",
+            "id": "f5da1cba1d60fb23",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal/Project/Third_Person_Prototype/13_충돌.md",
+                "file": "Unreal/Project/Third_Person_Prototype/18_Menu_UI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "13_충돌"
+              "title": "18_Menu_UI"
             }
           }
         ],
@@ -179,10 +179,25 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "c404eeeeb89b992a",
+  "active": "f5da1cba1d60fb23",
   "lastOpenFiles": [
+    "Unreal/Project/Third_Person_Prototype/17_HUD.md",
+    "Unreal/Project/Third_Person_Prototype/18_Menu_UI.md",
+    "Pasted image 20250213141558.png",
+    "Pasted image 20250213135412.png",
+    "TIL/2025/2/02-13.md",
+    "Unreal/Project/Third_Person_Prototype/14_Spawn.md",
+    "Unreal/Project/Third_Person_Prototype/15_Character_Stat.md",
+    "Unreal/Project/Third_Person_Prototype/16_Gameflow.md",
+    "Unreal/Project/Third_Person_Prototype/13_Collision.md",
+    "Image/Unreal/ItemSpawnTable_DataTable.png",
+    "Algorithm/Weighted_Random_Pick.md",
+    "Algorithm",
+    "c++/STL/Algorithm.md",
+    "TIL/2025/2/02-03.md",
+    "TIL/2025/2/02-04.md",
+    "Unreal/Class Specifiers.md",
     "TIL/2025/2/02-12.md",
-    "Unreal/Project/Third_Person_Prototype/13_충돌.md",
     "Visual_Studio/Setting.md",
     "Visual_Studio/file.md",
     "c++/WinAPI/function.md",
@@ -194,20 +209,9 @@
     "c++/STL/Numeric.md",
     "c++/STL/Map.md",
     "c++/STL/Chrono.md",
-    "c++/STL/Algorithm.md",
     "c++/Basic/operator.md",
     "c++/Basic/ios.md",
     "c++/Basic/function.md",
-    "ETC/sortspec.md",
-    "c++/TIL/Vector.md",
-    "2025-02-12.md",
-    "Obsidian/Skin_변경.md",
-    "Obsidian/Github_웹사이트_상에서_링크.md",
-    "Obsidian/폴더_커스텀_정렬.md",
-    "Obsidian/마크다운 수식 문법.md",
-    "Obsidian/기타_설정.md",
-    "Unreal/Project/Unreal_Assignment_1.md",
-    "Unreal/Project/Text_RPG.md",
     "c++/TIL",
     "Image/Unreal/Idle-WalkRun_Trans_State.png",
     "Unreal/Library",
@@ -218,14 +222,10 @@
     "Pasted image 20250207200643.png",
     "Pasted image 20250207200617.png",
     "Pasted image 20250207200607.png",
-    "Pasted image 20250207200549.png",
-    "Image/Unreal/Main_States_In_Basic_Move.png",
     "TIL/2025/2",
-    "Image/Unreal/SetLocationNode.png",
     "c++/Visual_Studio",
     "c++/WinAPI",
     "Visual_Studio",
-    "Unreal/Graphic",
-    "Unreal/Project"
+    "Unreal/Graphic"
   ]
 }

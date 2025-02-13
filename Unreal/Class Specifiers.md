@@ -79,3 +79,5 @@ class SPARTAPROJECT_API IItemInterface
 
 
 # Overlap vs Hit
+
+# TSubclassOf vs TSoftclassOf
