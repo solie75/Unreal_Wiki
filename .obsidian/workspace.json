@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal/Project/Third_Person_Prototype/18_Menu_UI.md",
+                "file": "TIL/2025/2/02-17.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "18_Menu_UI"
+              "title": "02-17"
             }
           }
         ],
@@ -181,15 +181,21 @@
   },
   "active": "f5da1cba1d60fb23",
   "lastOpenFiles": [
-    "Unreal/Project/Third_Person_Prototype/17_HUD.md",
+    "Unreal/Animation/Temp.md",
+    "TIL/2025/2/02-17.md",
+    "Unreal/Project/CP_Project(TPP_ShootingGame)/1. Animation.md",
+    "Unreal/Animation",
+    "Unreal/Project/Text_RPG.md",
+    "Unreal/Project/CP_Project(TPP_ShootingGame)",
     "Unreal/Project/Third_Person_Prototype/18_Menu_UI.md",
-    "Pasted image 20250213141558.png",
-    "Pasted image 20250213135412.png",
-    "TIL/2025/2/02-13.md",
+    "Unreal/Project/Third_Person_Prototype/13_Collision.md",
     "Unreal/Project/Third_Person_Prototype/14_Spawn.md",
     "Unreal/Project/Third_Person_Prototype/15_Character_Stat.md",
     "Unreal/Project/Third_Person_Prototype/16_Gameflow.md",
-    "Unreal/Project/Third_Person_Prototype/13_Collision.md",
+    "Unreal/Project/Third_Person_Prototype/17_HUD.md",
+    "Pasted image 20250213141558.png",
+    "Pasted image 20250213135412.png",
+    "TIL/2025/2/02-13.md",
     "Image/Unreal/ItemSpawnTable_DataTable.png",
     "Algorithm/Weighted_Random_Pick.md",
     "Algorithm",
@@ -208,10 +214,6 @@
     "c++/STL/queue.md",
     "c++/STL/Numeric.md",
     "c++/STL/Map.md",
-    "c++/STL/Chrono.md",
-    "c++/Basic/operator.md",
-    "c++/Basic/ios.md",
-    "c++/Basic/function.md",
     "c++/TIL",
     "Image/Unreal/Idle-WalkRun_Trans_State.png",
     "Unreal/Library",
@@ -224,8 +226,6 @@
     "Pasted image 20250207200607.png",
     "TIL/2025/2",
     "c++/Visual_Studio",
-    "c++/WinAPI",
-    "Visual_Studio",
-    "Unreal/Graphic"
+    "c++/WinAPI"
   ]
 }

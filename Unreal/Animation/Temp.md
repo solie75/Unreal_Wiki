@@ -1,0 +1,24 @@
+# Animation Sample Project 의 Character 를 CP_Project 로 이식.
+
+- Sample Project 의 Animation 분석
+	- Animation Sequence & Blend Space
+		- AimOffset
+			- float Curve
+		- Crouch
+		- Idle
+		- Jump
+		- Run
+		- Sprint
+		- Traversal
+		- Walk
+	- Data
+		- ExperimentalStateMachineData
+			- Chooser Table
+			- Pose Search Database
+			- Animation Sequence
+		- MotionMatchingData
+			- Channels
+			- DataBases
+			- Normalizaion_Sets
+			- Schemas
+			- Chooser Table
