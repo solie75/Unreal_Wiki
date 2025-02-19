@@ -1,0 +1,1 @@
+1. Input Maping Context 를 Player 의 Subsystem 에 추가.
