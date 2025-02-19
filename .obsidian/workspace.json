@@ -166,10 +166,13 @@
   },
   "active": "f5da1cba1d60fb23",
   "lastOpenFiles": [
-    "c++/Smart_Pointor.md",
+    "Unreal/Feature/Smart_Pointor.md",
+    "TIL/2025/2/02-19.md",
+    "Unreal/Feature/Smart_Point.md",
+    "Unreal/Animation/4_AnimInstance.md",
+    "Untitled",
     "Unreal/Project/Unreal_Assignment_1.md",
     "Unreal/Project/CP_Project(TPP_ShootingGame)/1. Animation.md",
-    "TIL/2025/2/02-19.md",
     "c++/챌린저_알고리즘_코딩_테스트_정리.md",
     "c++/CodingTest_Tip.md",
     "c++/Basic/operator.md",
@@ -177,7 +180,6 @@
     "c++/Basic/function.md",
     "Unreal/Animation/6_Chooser.md",
     "Unreal/Animation/5_Animation_Blueprint.md",
-    "Unreal/Animation/4_AnimInstance.md",
     "Unreal/Animation/3_Character(Bind_Input_Action).md",
     "Unreal/Animation/2_Input_Mapping_Context.md",
     "Unreal/Animation/1_Input_Action.md",
@@ -195,7 +197,6 @@
     "Pasted image 20250213141558.png",
     "Pasted image 20250213135412.png",
     "TIL/2025/2/02-13.md",
-    "Algorithm/Weighted_Random_Pick.md",
     "Unreal/Animation",
     "Unreal/Project/CP_Project(TPP_ShootingGame)",
     "Image/Unreal/ItemSpawnTable_DataTable.png",
@@ -210,7 +211,6 @@
     "Pasted image 20250207200843.png",
     "Pasted image 20250207200643.png",
     "TIL/2025/2",
-    "c++/Visual_Studio",
-    "c++/WinAPI"
+    "c++/Visual_Studio"
   ]
 }
