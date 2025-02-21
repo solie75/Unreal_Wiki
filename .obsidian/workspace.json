@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/2025/2/02-19.md",
+                "file": "TIL/2025/2/02-20.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-19"
+              "title": "02-20"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "imc",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,20 +166,26 @@
   },
   "active": "f5da1cba1d60fb23",
   "lastOpenFiles": [
-    "Unreal/Feature/Smart_Pointor.md",
+    "Unreal/Feature/Data_Driven_CVars(DDCVars).md",
+    "TIL/2025/2/02-20.md",
+    "Unreal/Feature/Thread.md",
+    "Unreal/Project/CP_Project(TPP_ShootingGame)/1_Animation.md",
     "TIL/2025/2/02-19.md",
+    "Unreal/Blueprint/Tag-Node_Reference.md",
+    "Unreal/Class Specifiers.md",
+    "Unreal/Blueprint",
+    "Unreal/Animation/5_Animation_Blueprint.md",
+    "Unreal/Animation/6_Chooser.md",
+    "Unreal/Feature/Smart_Pointor.md",
     "Unreal/Feature/Smart_Point.md",
     "Unreal/Animation/4_AnimInstance.md",
     "Untitled",
     "Unreal/Project/Unreal_Assignment_1.md",
-    "Unreal/Project/CP_Project(TPP_ShootingGame)/1. Animation.md",
     "c++/챌린저_알고리즘_코딩_테스트_정리.md",
     "c++/CodingTest_Tip.md",
     "c++/Basic/operator.md",
     "c++/Basic/ios.md",
     "c++/Basic/function.md",
-    "Unreal/Animation/6_Chooser.md",
-    "Unreal/Animation/5_Animation_Blueprint.md",
     "Unreal/Animation/3_Character(Bind_Input_Action).md",
     "Unreal/Animation/2_Input_Mapping_Context.md",
     "Unreal/Animation/1_Input_Action.md",
@@ -190,13 +196,8 @@
     "TIL/2025/2/02-03.md",
     "Pasted image 20250218223134.png",
     "Pasted image 20250218222222.png",
-    "Unreal/Class Specifiers.md",
-    "c++/챌린저.md",
-    "c++/STL/String.md",
-    "TIL/2025/2/02-17.md",
     "Pasted image 20250213141558.png",
     "Pasted image 20250213135412.png",
-    "TIL/2025/2/02-13.md",
     "Unreal/Animation",
     "Unreal/Project/CP_Project(TPP_ShootingGame)",
     "Image/Unreal/ItemSpawnTable_DataTable.png",
@@ -210,7 +211,6 @@
     "Pasted image 20250207200514.png",
     "Pasted image 20250207200843.png",
     "Pasted image 20250207200643.png",
-    "TIL/2025/2",
-    "c++/Visual_Studio"
+    "TIL/2025/2"
   ]
 }
