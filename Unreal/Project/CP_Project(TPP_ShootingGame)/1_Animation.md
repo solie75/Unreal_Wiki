@@ -8,6 +8,7 @@
 	1. Update CVar Driven Variables (설정값 업데이트)
 		1. [기본 콘솔 값(CVar) 태그](https://framedsc.com/GeneralGuides/ue5_commands.htm)
 		2. 커스텀 콘솔 값 세팅 : Project Settings -> Data Driven CVars -> CVars Array 에 원하는 콘솔 값 추가.
+		3. 프로젝트에서는 설정 값이 주어지지 않도록 한다.
 	2. Update Logic
 		1. Update Trajectory
 			1. Trajectory History 업데이트 & Future Prediction 을 생성.
@@ -19,27 +20,35 @@
 			3. Cache Acceleration
 			4. Cache Velocity
 		3. Update States
-		4. Update Movement Direction
-		5. Update Target Rotation
-
-
 
 - BlueprintThreadSafeUpdateAnimation
 	- Animation Blueprint 의 Override 함수로 Update Logic 을 호출한다.
 	- 해당 함수는 멀티 쓰레드에서 실행될 수 있도록 보장된다.
 	- [Event Blueprint Update Animation 과 BlueprintThreadSafeUpdateAnimation 의 차이]
-- 
 
 - SetupIput
 	- Add Mapping Context
-	- 나는 CP_Player controller BeginPlay() 에서 실행하고 있음.
+	- CP_Player controller -> BeginPlay() 에서 실행하고 있음.
 
 # AnimGraph
 
+- 순서도
 Motion Matching  + (State Controller(State Machine) + Blend Stack) -> Apply Mesh Space Additive(Simple Additive Lean) -> Apply Mesh Space Additive(Simple Aim Offset) -> Slot 'DefaultSlot' -> Offset Root Bone -> Local To Component ->Foot Placement -> Leg IK -> Component To Local ->Pose History -> Output Pose
 
-
-
+1. Motion Matching
+2. State Controller
+	1. Set Blend Stack Anim from Chooser
+		1. S_BlendStackInputs (구조체)
+			1. Animation Asset
+			2. Loop (boolen)
+			3. Start Time
+			4. Blend Time
+			5. [Blend Profile](/Unreal/Animation/7_Motion_Matching.md#Blend_Profile)
+			6. Tags
+	2. Animation for StateMathine Chooser Table
+		- nest 구조
+		1. stand Stopped -> Stand Idle Loops -> (Stand Idle Loop, Stand Idle Break)
+		2. 
 
 
 

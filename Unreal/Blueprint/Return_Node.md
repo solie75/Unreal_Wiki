@@ -1,0 +1,21 @@
+# Advanced
+
+- const
+	- 해당 함수가 내부데이터 변경하지 않는 '읽기 전용' 함수임을 나타낸다.
+	- UFUNCTION 에서 const 키워드 사용하면 자동으로 적용.
+- Exec
+	- 블루 프린트에서 콘솔 명령어로 실행할 수 있는 함수임을 나타낸다.
+	- UFUNCTION 에 Exec 키워드가 포함되면 래발자가 콘솔에서 해당 함수를 직접 실행 가능.
+	- 해당 함수는 게임 실행 중 콘솔 명령어로 호출 가능.
+- Thread Safe
+	- 해당 함수가 멀티스레드 환경에서 안전하게 실행될 수 있음을 나타낸다.
+	- const 함수처럼 객체의 데이터를 수정하지 않거나, 멀티스레드 접근이 고려된 함수에서 사용된다.
+	- AI, 물리 엔진, 애니메이션 처리 등에서 멀티스레드로 실행되는 함수라면 `Thread Safe` 설정이 필요할 수 있음.
+- Unsafe During Actor Construction (액터 생성 중 비안전)
+	- 해당 함수가 엑터가 생성되는 동안 실행하면 충돌을 일으킬 수 있음을 나타낸다.
+	- `UnsafeDuringActorConstruction = "true"`이면, 액터가 생성 중일 때 호출하면 안 됨.
+- Deprecated
+	- 해당 함수는 더 이상 사용되지 않으며, 새로운 함수로 대체되었음을 나타낸다.
+	- 기존 프로젝트에서 이 함수를 사용하면 경고 메시지가 표시된다.
+	- `meta = (DeprecatedFunction, DeprecationMessage = "Use NewFunction() instead.")` 형식으로 메시지를 추가할 수 있음.'
+	- 

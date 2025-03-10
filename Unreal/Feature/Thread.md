@@ -95,3 +95,10 @@ Unreal Engine 의 Animation Sample Project 에서 Animation 은 다음의 두 �
 - 엔진은 위의 두 함수를 번갈아 호출한다 왜일까?
 	- 멀티 스레딩 환경에서 안전성을 보장하기 위해서
 	- 게임의 최적화를 위해 일부 연산을 멀티스레드에서 실행 가능하도록 하기 위해서
+
+# Thread_와_UObject
+
+Work Thread 는 멀티 스레딩 환경에서 특정 작업을 백그라운드에서 수행하는 보조 스레드를 의미한다.
+UObject 는 기본적으로 Main Thread에서만 안전하게 접근 가능하며, Worker Thread 에서 직접 접근하면 충돌이나 예기치 않은 동작이 발생할 수 있다. 
+	언리얼 엔진의 UObject 시스템은 기본적으로 Garbage Colliector(GC) 를 통해 객체의 수명을 관리한다. 하지만 GC 는 Main Thread 에서만 실행되기 때문에 Worker Thread 에서 UObject 를 참조하면, 객체가 삭제되었을 때 크래시가 발생할 수 있다. 이에 Multi Thread 에서 UObject 에 관련된 작업을 하기 위해서는 작업 시작 전에 해당 UObject 가 유효한지 검사해야 한다.
+따라서 UObject 유효설을 미리 Main Thread  에서 저장해 두고 Worker Thread 에서는 캐시된 데이터를 사용하는 방식이 필요하다.
