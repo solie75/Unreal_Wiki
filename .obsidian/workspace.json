@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "afaaa9e3f5e9ce27",
+        "id": "4e24dec453df21b1",
         "type": "tabs",
         "children": [
           {
-            "id": "f5da1cba1d60fb23",
+            "id": "d47dd7d4d1183b4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/2025/3/03-13.md",
+                "file": "TIL/2025/3/03-14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-13"
+              "title": "03-14"
+            }
+          },
+          {
+            "id": "1da345c2ca887251",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TIL/2025/3/03-12.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03-12"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,53 +179,92 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "f5da1cba1d60fb23",
+  "floating": {
+    "id": "d7fb753010a18a97",
+    "type": "floating",
+    "children": [
+      {
+        "id": "ac28f26b3e0d4c18",
+        "type": "window",
+        "children": [
+          {
+            "id": "c3a5c8639cc624e7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1e3cf2c258a9b4d4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "낙서장.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "낙서장"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 1392,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "1da345c2ca887251",
   "lastOpenFiles": [
-    "TIL/2025/3/03-12.md",
     "TIL/2025/3/03-13.md",
-    "TIL/2025/3/03-11.md",
-    "TIL/2025/1/01-03.md",
-    "TIL/2025/3/03-10.md",
-    "Algorithm/Brute_Force.md",
-    "Unreal/Project/CP_Project(TPP_ShootingGame)/2_PlayerCharacer.md",
-    "c++/STL/Algorithm.md",
-    "Algorithm/01. 모음.md",
-    "TIL/2024/12/12-27.md",
-    "TIL/2025/2/02-10.md",
-    "Algorithm/Weighted_Random_Pick.md",
-    "TIL/2025/2/02-03.md",
-    "Unreal/Animation/Camera Asset.md",
-    "TIL/2025/3",
+    "TIL/2025/3/03-14.md",
+    "포폴 질문.md",
+    "낙서장.md",
+    "Unreal/ETC.md",
+    "Unreal/Server/02_Unreal_Source_Code_Build.md",
+    "Unreal/Server/00_Ref.md",
+    "Unreal/Server/Untitled 1.md",
+    "Unreal/Server/01_Server_Basic.md",
+    "Unreal/Animation/Temp.md",
+    "Unreal/Animation/Pose Search.md",
     "Unreal/Animation/Character State Update.md",
+    "Unreal/Animation/Camera Asset.md",
+    "Unreal/Animation/Animation_Blueprint_Functions.md",
+    "Unreal/Animation/7_Motion_Matching.md",
+    "Unreal/Animation/6_Chooser.md",
+    "Unreal/Animation/5_Animation_Blueprint.md",
+    "Unreal/Animation/4_AnimInstance.md",
+    "Unreal/Animation/3_Character(Bind_Input_Action).md",
     "Unreal/Animation/2_Input_Mapping_Context.md",
     "Unreal/Animation/1_Input_Action.md",
-    "Unreal/Animation/3_Character(Bind_Input_Action).md",
-    "Unreal/Animation/Pose Search.md",
-    "Unreal/Animation/Animation_Blueprint_Functions.md",
+    "Visual_Studio/file.md",
+    "Visual_Studio/Setting.md",
+    "Image/Pasted image 20250218223134.png",
+    "Image/Pasted image 20250213141558.png",
+    "Image/Pasted image 20250213135412.png",
+    "Unreal/Server/01..md",
+    "Unreal/Project/CP_Project(TPP_ShootingGame)/2_PlayerCharacer.md",
+    "Unreal/Server",
     "Unreal/Project/CP_Project(TPP_ShootingGame)/1_Animation.md",
-    "TIL/2025/2/02-25.md",
-    "Unreal/Animation/7_Motion_Matching.md",
-    "Unreal/Blueprint/Tag-Node_Reference.md",
-    "Unreal/Animation/6_Chooser.md",
-    "Unreal/Feature/Thread.md",
+    "Image/TIL/Protocol_Layer.png",
+    "TIL/2025/3",
     "Unreal/Class/UObject/Untitled",
     "Unreal/Class/UObject",
     "Unreal/Class",
     "Unreal/Blueprint",
     "Untitled",
-    "Pasted image 20250218223134.png",
     "Pasted image 20250218222222.png",
-    "Pasted image 20250213141558.png",
-    "Pasted image 20250213135412.png",
     "Unreal/Animation",
     "Unreal/Project/CP_Project(TPP_ShootingGame)",
     "Image/Unreal/ItemSpawnTable_DataTable.png",
     "Algorithm",
     "Pasted image 20250212171303.png",
-    "c++/TIL",
     "Image/Unreal/Idle-WalkRun_Trans_State.png",
     "Pasted image 20250207200514.png",
-    "Pasted image 20250207200843.png",
-    "Pasted image 20250207200643.png"
+    "Pasted image 20250207200843.png"
   ]
 }
