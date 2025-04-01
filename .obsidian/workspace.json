@@ -4,39 +4,66 @@
     "type": "split",
     "children": [
       {
-        "id": "4e24dec453df21b1",
+        "id": "9e2c19d5ba76ec87",
         "type": "tabs",
         "children": [
           {
-            "id": "d47dd7d4d1183b4a",
+            "id": "a26d160646c232f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/2025/3/03-14.md",
+                "file": "TIL/2025/3/03-20.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-14"
+              "title": "03-20"
             }
           },
           {
-            "id": "1da345c2ca887251",
+            "id": "e052c33b9f0c8b78",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/2025/3/03-12.md",
+                "file": "Error/Unreal_Error.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-12"
+              "title": "Unreal_Error"
+            }
+          },
+          {
+            "id": "c0e812a834ca29a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unreal/Server/03_Network_Between_Client_And_Server.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03_Network_Between_Client_And_Server"
+            }
+          },
+          {
+            "id": "505ad80cb8a7a831",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "게임 회사 용어.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "게임 회사 용어"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "unordered_map",
+                "query": "Fmodel",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,11 +116,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 200
   },
   "right": {
     "id": "00cd3b0bc039ffc3",
@@ -179,92 +207,53 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "floating": {
-    "id": "d7fb753010a18a97",
-    "type": "floating",
-    "children": [
-      {
-        "id": "ac28f26b3e0d4c18",
-        "type": "window",
-        "children": [
-          {
-            "id": "c3a5c8639cc624e7",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "1e3cf2c258a9b4d4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "낙서장.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "낙서장"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 0,
-        "width": 1280,
-        "height": 1392,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "1da345c2ca887251",
+  "active": "a26d160646c232f0",
   "lastOpenFiles": [
-    "TIL/2025/3/03-13.md",
-    "TIL/2025/3/03-14.md",
+    "Algorithm/Brute_Force.md",
+    "c++/Basic/Clean Code.md",
+    "Untitled.md",
     "포폴 질문.md",
-    "낙서장.md",
-    "Unreal/ETC.md",
+    "TIL/2025/3/03-28.md",
+    "Untitled",
+    "TIL/2025/3/03-27.md",
+    "TIL/2025/3/03-25.md",
+    "Error/Unreal_Error.md",
+    "Unreal/Server/04_Chat.md",
+    "Unreal/Server/03_Network_Between_Client_And_Server.md",
+    "게임 회사 용어.md",
+    "TIL/2025/3/03-24.md",
+    "Error/VS_Error.md",
+    "Error/C++_Error.md",
+    "Unreal/Project/ChatBaseballGame_Project/readme.md",
+    "Error",
+    "Unreal/Project/Text_RPG.md",
+    "Unreal/Project/ChatBaseballGame_Project",
+    "Unreal/Project/Unreal_Assignment_1.md",
+    "면접_대비.md",
+    "c++/Basic/Class.md",
     "Unreal/Server/02_Unreal_Source_Code_Build.md",
-    "Unreal/Server/00_Ref.md",
-    "Unreal/Server/Untitled 1.md",
     "Unreal/Server/01_Server_Basic.md",
-    "Unreal/Animation/Temp.md",
-    "Unreal/Animation/Pose Search.md",
-    "Unreal/Animation/Character State Update.md",
-    "Unreal/Animation/Camera Asset.md",
-    "Unreal/Animation/Animation_Blueprint_Functions.md",
-    "Unreal/Animation/7_Motion_Matching.md",
-    "Unreal/Animation/6_Chooser.md",
-    "Unreal/Animation/5_Animation_Blueprint.md",
-    "Unreal/Animation/4_AnimInstance.md",
-    "Unreal/Animation/3_Character(Bind_Input_Action).md",
-    "Unreal/Animation/2_Input_Mapping_Context.md",
-    "Unreal/Animation/1_Input_Action.md",
-    "Visual_Studio/file.md",
-    "Visual_Studio/Setting.md",
+    "Unreal/Server/00_Ref.md",
+    "Unreal/Server/00_Function.md",
+    "c++/Basic/function.md",
+    "c++/Basic/ios.md",
+    "c++/Basic/operator.md",
+    "Image/Unreal/Widget_Chat_Window.png",
+    "Image/Unreal/BindOnSendMsgToServer.png",
+    "Image/Unreal/ChatLevelBlueprint.png",
+    "Image/Unreal/CustomEvent_In_ChatProject2.png",
+    "Image/Unreal/CustomEvent_In_ChatProject3.png",
+    "Image/Unreal/CustomEvent_In_ChatProject1.png",
+    "Image/Unreal/PlayerController_With_ChatProject.png",
+    "Image/Unreal/Chat_Widget.png",
     "Image/Pasted image 20250218223134.png",
-    "Image/Pasted image 20250213141558.png",
-    "Image/Pasted image 20250213135412.png",
-    "Unreal/Server/01..md",
-    "Unreal/Project/CP_Project(TPP_ShootingGame)/2_PlayerCharacer.md",
+    "Unresl/Server",
+    "Unresl",
+    "Image/Unreal/Unreal_Structure_In_Network_Env2.png",
     "Unreal/Server",
-    "Unreal/Project/CP_Project(TPP_ShootingGame)/1_Animation.md",
-    "Image/TIL/Protocol_Layer.png",
     "TIL/2025/3",
     "Unreal/Class/UObject/Untitled",
     "Unreal/Class/UObject",
-    "Unreal/Class",
-    "Unreal/Blueprint",
-    "Untitled",
-    "Pasted image 20250218222222.png",
-    "Unreal/Animation",
-    "Unreal/Project/CP_Project(TPP_ShootingGame)",
-    "Image/Unreal/ItemSpawnTable_DataTable.png",
-    "Algorithm",
-    "Pasted image 20250212171303.png",
-    "Image/Unreal/Idle-WalkRun_Trans_State.png",
-    "Pasted image 20250207200514.png",
-    "Pasted image 20250207200843.png"
+    "Unreal/Class"
   ]
 }
