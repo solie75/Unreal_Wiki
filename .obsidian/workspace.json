@@ -13,54 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/2025/3/03-20.md",
+                "file": "TIL/2025/4/04-03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-20"
+              "title": "04-03"
             }
           },
           {
-            "id": "e052c33b9f0c8b78",
+            "id": "7ffda5eb0dd35530",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Error/Unreal_Error.md",
+                "file": "TIL/2025/2/02-03.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unreal_Error"
-            }
-          },
-          {
-            "id": "c0e812a834ca29a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unreal/Server/03_Network_Between_Client_And_Server.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "03_Network_Between_Client_And_Server"
-            }
-          },
-          {
-            "id": "505ad80cb8a7a831",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "게임 회사 용어.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "게임 회사 용어"
+              "title": "02-03"
             }
           }
         ]
@@ -95,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Fmodel",
+                "query": "BlueprintImplementableEvent",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,12 +88,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 320.5
   },
   "right": {
     "id": "00cd3b0bc039ffc3",
@@ -209,35 +180,36 @@
   },
   "active": "a26d160646c232f0",
   "lastOpenFiles": [
-    "Algorithm/Brute_Force.md",
-    "c++/Basic/Clean Code.md",
-    "Untitled.md",
-    "포폴 질문.md",
-    "TIL/2025/3/03-28.md",
-    "Untitled",
-    "TIL/2025/3/03-27.md",
-    "TIL/2025/3/03-25.md",
+    "TIL/2025/4/04-01.md",
+    "TIL/2025/4/04-03.md",
     "Error/Unreal_Error.md",
+    "Unreal/Animation/Animation Heritage.md",
+    "Unreal/Animation/Animation_Optimization.md",
     "Unreal/Server/04_Chat.md",
-    "Unreal/Server/03_Network_Between_Client_And_Server.md",
-    "게임 회사 용어.md",
-    "TIL/2025/3/03-24.md",
-    "Error/VS_Error.md",
-    "Error/C++_Error.md",
-    "Unreal/Project/ChatBaseballGame_Project/readme.md",
-    "Error",
-    "Unreal/Project/Text_RPG.md",
-    "Unreal/Project/ChatBaseballGame_Project",
+    "TIL/2025/3/03-20.md",
+    "TIL/2025/2/02-03.md",
+    "Unreal/Animation/Animation_Blueprint_Functions.md",
+    "Unreal/Animation/1_Input_Action.md",
+    "Unreal/Animation/2_Input_Mapping_Context.md",
+    "Unreal/Animation/3_Character(Bind_Input_Action).md",
+    "Unreal/Animation/4_AnimInstance.md",
+    "Unreal/Animation/5_Animation_Blueprint.md",
+    "Unreal/Animation/6_Chooser.md",
+    "Unreal/Animation/7_Motion_Matching.md",
+    "Unreal/Animation/Camera Asset.md",
+    "Unreal/Animation/Character State Update.md",
+    "Unreal/Animation/Pose Search.md",
+    "Unreal/Animation/Temp.md",
+    "Unreal/Class/Character_Movement.md",
     "Unreal/Project/Unreal_Assignment_1.md",
-    "면접_대비.md",
-    "c++/Basic/Class.md",
-    "Unreal/Server/02_Unreal_Source_Code_Build.md",
-    "Unreal/Server/01_Server_Basic.md",
-    "Unreal/Server/00_Ref.md",
-    "Unreal/Server/00_Function.md",
-    "c++/Basic/function.md",
-    "c++/Basic/ios.md",
-    "c++/Basic/operator.md",
+    "Unreal/Project/Third_Person_Prototype/18_Menu_UI.md",
+    "Unreal/Project/CP_Project(TPP_ShootingGame)/1_Animation.md",
+    "Unreal/Macro.md",
+    "Unreal/Project/CP_Project(TPP_ShootingGame)/2_PlayerCharacer.md",
+    "TIL/2025/4",
+    "Untitled",
+    "Error",
+    "Unreal/Project/ChatBaseballGame_Project",
     "Image/Unreal/Widget_Chat_Window.png",
     "Image/Unreal/BindOnSendMsgToServer.png",
     "Image/Unreal/ChatLevelBlueprint.png",
@@ -253,7 +225,6 @@
     "Unreal/Server",
     "TIL/2025/3",
     "Unreal/Class/UObject/Untitled",
-    "Unreal/Class/UObject",
-    "Unreal/Class"
+    "Unreal/Class/UObject"
   ]
 }
