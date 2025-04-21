@@ -8,34 +8,49 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a26d160646c232f0",
+            "id": "e9d92c1557c2c7c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/2025/4/04-03.md",
+                "file": "c++/STL/String.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-03"
+              "title": "String"
             }
           },
           {
-            "id": "7ffda5eb0dd35530",
+            "id": "8dbd039d62cee4d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TIL/2025/2/02-03.md",
+                "file": "Unreal/Udemy_강좌/GAS/대본/section2/8강.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-03"
+              "title": "8강"
+            }
+          },
+          {
+            "id": "cbb35e3431539010",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unreal/Udemy_강좌/GAS/진도/세팅.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "세팅"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -67,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "BlueprintImplementableEvent",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 310.5,
+    "collapsed": true
   },
   "right": {
     "id": "00cd3b0bc039ffc3",
@@ -178,53 +194,52 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "a26d160646c232f0",
+  "active": "cbb35e3431539010",
   "lastOpenFiles": [
-    "TIL/2025/4/04-01.md",
-    "TIL/2025/4/04-03.md",
-    "Error/Unreal_Error.md",
-    "Unreal/Animation/Animation Heritage.md",
-    "Unreal/Animation/Animation_Optimization.md",
-    "Unreal/Server/04_Chat.md",
-    "TIL/2025/3/03-20.md",
-    "TIL/2025/2/02-03.md",
-    "Unreal/Animation/Animation_Blueprint_Functions.md",
-    "Unreal/Animation/1_Input_Action.md",
-    "Unreal/Animation/2_Input_Mapping_Context.md",
-    "Unreal/Animation/3_Character(Bind_Input_Action).md",
-    "Unreal/Animation/4_AnimInstance.md",
+    "Unreal/Udemy_강좌/GAS/대본/section2/8강.md",
+    "c++/STL/String.md",
+    "Unreal/Udemy_강좌/GAS/대본/section2",
+    "Unreal/Udemy_강좌/GAS/진도/세팅.md",
+    "Image/Unreal/GAS_Project_Character_And_Animation_Basic_Structure.png",
     "Unreal/Animation/5_Animation_Blueprint.md",
-    "Unreal/Animation/6_Chooser.md",
-    "Unreal/Animation/7_Motion_Matching.md",
-    "Unreal/Animation/Camera Asset.md",
-    "Unreal/Animation/Character State Update.md",
-    "Unreal/Animation/Pose Search.md",
-    "Unreal/Animation/Temp.md",
-    "Unreal/Class/Character_Movement.md",
-    "Unreal/Project/Unreal_Assignment_1.md",
-    "Unreal/Project/Third_Person_Prototype/18_Menu_UI.md",
-    "Unreal/Project/CP_Project(TPP_ShootingGame)/1_Animation.md",
-    "Unreal/Macro.md",
-    "Unreal/Project/CP_Project(TPP_ShootingGame)/2_PlayerCharacer.md",
+    "TIL/2025/4/04-21.md",
+    "Unreal/Udemy.md",
+    "Untitled 1.md",
+    "Unreal/Animation/4_AnimInstance.md",
+    "Unreal/Animation/3_Character(Bind_Input_Action).md",
+    "Unreal/Animation/2_Input_Mapping_Context.md",
+    "Unreal/Animation/1_Input_Action.md",
+    "Unreal/Udemy_강좌/GAS/질문 목록.md",
+    "Unreal/Udemy_강좌/GAS/대본/1강.md",
+    "Unreal/Udemy_강좌/GAS/대본",
+    "Unreal/Udemy_강좌/GAS/전체.md",
+    "Unreal/Udemy_강좌/GAS/진도",
+    "Unreal/Udemy_강좌/GAS/섹션 6/3. Instant Gameplay Effects.md",
+    "Untitled.md",
+    "Untitled 2.md",
+    "Unreal/Udemy 강좌/Untitled",
+    "Unreal/Udemy_강좌/GAS/섹션 6",
+    "TIL/2025/2/02-03.md",
+    "Pasted image 20250410095934.png",
+    "Pasted image 20250410095818.png",
+    "Pasted image 20250410095510.png",
+    "Pasted image 20250410094914.png",
+    "Pasted image 20250410091428.png",
+    "Pasted image 20250410091208.png",
+    "Pasted image 20250410085117.png",
+    "Pasted image 20250410085038.png",
+    "Pasted image 20250410042810.png",
+    "면접_대비.md",
+    "Unreal/Udemy 강좌/GAS/2강.md",
+    "Error/Unreal_Error.md",
+    "Unreal/Build/Build.cs.md",
+    "Unreal/Udemy_강좌/GAS",
+    "Unreal/Udemy_강좌",
+    "TIL/2025/4/04-03.md",
+    "Unreal/Build",
+    "TIL/2025/4/04-01.md",
+    "Unreal/Animation/Animation Heritage.md",
     "TIL/2025/4",
-    "Untitled",
-    "Error",
-    "Unreal/Project/ChatBaseballGame_Project",
-    "Image/Unreal/Widget_Chat_Window.png",
-    "Image/Unreal/BindOnSendMsgToServer.png",
-    "Image/Unreal/ChatLevelBlueprint.png",
-    "Image/Unreal/CustomEvent_In_ChatProject2.png",
-    "Image/Unreal/CustomEvent_In_ChatProject3.png",
-    "Image/Unreal/CustomEvent_In_ChatProject1.png",
-    "Image/Unreal/PlayerController_With_ChatProject.png",
-    "Image/Unreal/Chat_Widget.png",
-    "Image/Pasted image 20250218223134.png",
-    "Unresl/Server",
-    "Unresl",
-    "Image/Unreal/Unreal_Structure_In_Network_Env2.png",
-    "Unreal/Server",
-    "TIL/2025/3",
-    "Unreal/Class/UObject/Untitled",
-    "Unreal/Class/UObject"
+    "Untitled"
   ]
 }
