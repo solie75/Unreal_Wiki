@@ -22,35 +22,41 @@
             }
           },
           {
-            "id": "8dbd039d62cee4d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unreal/Udemy_강좌/GAS/대본/section2/8강.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "8강"
-            }
-          },
-          {
             "id": "cbb35e3431539010",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Unreal/Udemy_강좌/GAS/진도/세팅.md",
+                "file": "Unreal/Udemy_강좌/GAS/진도/2_AbilitySystemComponent_AttributeSet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "세팅"
+              "title": "2_AbilitySystemComponent_AttributeSet"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
+      },
+      {
+        "id": "d509df82b95f5ef0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8fa871e6b5bdff8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unreal/Udemy_강좌/GAS/대본/section3/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian/Skin 변경.md",
+                "file": "Unreal/Udemy_강좌/GAS/대본/section3/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +140,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Skin 변경"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -194,12 +200,27 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "cbb35e3431539010",
+  "active": "b8fa871e6b5bdff8",
   "lastOpenFiles": [
-    "Unreal/Udemy_강좌/GAS/대본/section2/8강.md",
+    "Unreal/Udemy_강좌/GAS/진도/2_AbilitySystemComponent_AttributeSet.md",
+    "Unreal/Udemy_강좌/GAS/대본/section3/Untitled.md",
+    "Unreal/Udemy_강좌/GAS/대본/section3/6. GAS Replication Mode.md",
+    "Unreal/Udemy_강좌/GAS/진도/1_Setting.md",
+    "Unreal/Udemy_강좌/GAS/대본/section3/5. GAS in Multiplayer.md",
+    "Unreal/Udemy_강좌/GAS/대본/section3/4. Ability System Component and AttributeSet.md",
+    "Unreal/Udemy_강좌/GAS/대본/section3/3. PlayerState.md",
+    "Unreal/Udemy_강좌/GAS/대본/section3/2. Main Parts of GAS.md",
+    "Unreal/Udemy_강좌/GAS/대본/section3/1.What is AbilitySystem.md",
     "c++/STL/String.md",
+    "Unreal/Udemy_강좌/GAS/전체.md",
+    "Unreal/Udemy_강좌/GAS/대본/section3",
+    "Unreal/Udemy_강좌/GAS/대본/section2/15강(마우스로적인식3).md",
+    "Unreal/Udemy_강좌/GAS/대본/section2/14강(마우스로적인식2).md",
+    "Unreal/Udemy_강좌/GAS/대본/section2/13강(마우스로적인식).md",
+    "TIL/2025/4/04-22.md",
+    "Unreal/Udemy_강좌/GAS/대본/section2/11강.md",
+    "Unreal/Udemy_강좌/GAS/대본/section2/8강.md",
     "Unreal/Udemy_강좌/GAS/대본/section2",
-    "Unreal/Udemy_강좌/GAS/진도/세팅.md",
     "Image/Unreal/GAS_Project_Character_And_Animation_Basic_Structure.png",
     "Unreal/Animation/5_Animation_Blueprint.md",
     "TIL/2025/4/04-21.md",
@@ -210,16 +231,10 @@
     "Unreal/Animation/2_Input_Mapping_Context.md",
     "Unreal/Animation/1_Input_Action.md",
     "Unreal/Udemy_강좌/GAS/질문 목록.md",
-    "Unreal/Udemy_강좌/GAS/대본/1강.md",
     "Unreal/Udemy_강좌/GAS/대본",
-    "Unreal/Udemy_강좌/GAS/전체.md",
     "Unreal/Udemy_강좌/GAS/진도",
-    "Unreal/Udemy_강좌/GAS/섹션 6/3. Instant Gameplay Effects.md",
-    "Untitled.md",
-    "Untitled 2.md",
     "Unreal/Udemy 강좌/Untitled",
     "Unreal/Udemy_강좌/GAS/섹션 6",
-    "TIL/2025/2/02-03.md",
     "Pasted image 20250410095934.png",
     "Pasted image 20250410095818.png",
     "Pasted image 20250410095510.png",
@@ -229,17 +244,9 @@
     "Pasted image 20250410085117.png",
     "Pasted image 20250410085038.png",
     "Pasted image 20250410042810.png",
-    "면접_대비.md",
-    "Unreal/Udemy 강좌/GAS/2강.md",
-    "Error/Unreal_Error.md",
-    "Unreal/Build/Build.cs.md",
     "Unreal/Udemy_강좌/GAS",
     "Unreal/Udemy_강좌",
-    "TIL/2025/4/04-03.md",
     "Unreal/Build",
-    "TIL/2025/4/04-01.md",
-    "Unreal/Animation/Animation Heritage.md",
-    "TIL/2025/4",
-    "Untitled"
+    "TIL/2025/4"
   ]
 }

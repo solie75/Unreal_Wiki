@@ -50,8 +50,16 @@ Aura 정상 컴파일 시키기
 
 - CharacterAnimInstance::NativeUpdateAnimation() : 매 프레임 호출되는 Tick 함수로 ABP 에서 사용되는 변수들 계산 및 업데이트
 
-# Gonlin Monster 용 ABP Template 생성
+# Goblin Monster 용 ABP 생성
 
-ABP_Template 에서 Main State -> Default -> Output Pose
+- ABP_Monster (Template) 생성.
+ABP Template 에서 Main State -> Default -> Output Pose
 Main State 의 Locomotion 에서 Blendspace Player -> Output Animation Pose
 [BlendSpace 란?](https://dev.epicgames.com/documentation/en-us/unreal-engine/blend-spaces-in-animation-blueprints-in-unreal-engine#:~:text=Aim%20Offset.-,Blend%20Space%20Player,-Blendspace%20Players%20are) Blend Space 에셋을 재생하고 제어하는 노드. Blend Space 또는 Blend Space 1D 에셋을 할당하면 입력되는 값( X축, Y축) 을 기준으로 애니메이션들을 부드럽게 혼합하여 출력.
+
+- ABP_Goblin 생성.
+	- 해당 ABP 의  Asset Override Editor 탭에서 BlendSpace Player 에 Montage 추가.
+
+# Player Input
+
+IA_Move, IA_Look, IMC_Player 추가.
