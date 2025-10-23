@@ -1,7 +1,7 @@
 Widget Blueprint 생성 ->WBP_HUD 로 명명
 
 Canvas 와 Text 를 사용하여  디자인
-![[Pasted image 20250213141558.png]]
+![[/Image/Unreal/HUD_WidgetBlueprintCreated.png]]
 
 SpartaPlayerController 에서 HUD 변수 생성.
 
@@ -43,7 +43,7 @@ void ASpartaPlayerController::BeginPlay()
 - 실제 값과 HUD 연동
 
 WBP_HUD 에서 직접적으로 바인딩하는 경우는 다음과 같다.
-![[Pasted image 20250213135412.png]]
+![[/Image/Unreal/DirectBinding_From_WBP_HUD.png]]
 
 매 프레임 마다 갱신해 줘야 하기 때문에 성능에 취약하다. 따라서 Score 에 변동이 있을 때에만 호출되도록 다른 방식을 사용한다.
 갱신을 GameState 에서 진행한다.

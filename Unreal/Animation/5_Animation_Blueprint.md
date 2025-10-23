@@ -20,3 +20,15 @@ slot 은 AnimGraph 에서 Montage 를 어느 시점, 어느 파트에서 출력�
 
 - Montage 나 Sequencer 에서 Slot 을 지정할 수 있다.
 	- 여러 개의 Montage 를 하나의 Slot에 바인딩하면? 바인딩된 모든 Montage 들이 앞서 재생된 Montage 를 override 한다. 즉 마지막으로 재생된 Montage 가 출력된다.
+
+# Post_Process_AnimBP
+
+![[Post_Process_AnimBP(AnimGraph).png]]
+
+# Animation Warping
+
+https://dev.epicgames.com/documentation/en-us/unreal-engine/pose-warping-in-unreal-engine#slope%20warping
+
+https://dev.epicgames.com/documentation/en-us/unreal-engine/python-api/class/AnimNode_OrientationWarping?application_version=5.2
+
+https://www.youtube.com/watch?v=j1_SjFUB2ko

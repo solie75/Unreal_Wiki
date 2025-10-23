@@ -4,56 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9e2c19d5ba76ec87",
+        "id": "c4dd8e749870cac2",
         "type": "tabs",
         "children": [
           {
-            "id": "e9d92c1557c2c7c7",
+            "id": "77e769501ad61e59",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "c++/STL/String.md",
+                "file": "Unreal/Animation/Animation Sequencer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "String"
-            }
-          },
-          {
-            "id": "cbb35e3431539010",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unreal/Udemy_강좌/GAS/진도/2_AbilitySystemComponent_AttributeSet.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2_AbilitySystemComponent_AttributeSet"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "d509df82b95f5ef0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b8fa871e6b5bdff8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Unreal/Udemy_강좌/GAS/대본/section3/Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Animation Sequencer"
             }
           }
         ]
@@ -88,12 +53,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "SpartaGameInstance",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               },
               "icon": "lucide-search",
               "title": "Search"
@@ -113,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5,
-    "collapsed": true
+    "width": 310.5
   },
   "right": {
     "id": "00cd3b0bc039ffc3",
@@ -130,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Unreal/Udemy_강좌/GAS/대본/section3/Untitled.md",
+                "file": "Unreal/Animation/Animation_Sample_Project_분석/Motion_Matching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks for Motion_Matching"
             }
           },
           {
@@ -191,6 +155,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -200,53 +165,52 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "b8fa871e6b5bdff8",
+  "active": "77e769501ad61e59",
   "lastOpenFiles": [
-    "Unreal/Udemy_강좌/GAS/진도/2_AbilitySystemComponent_AttributeSet.md",
-    "Unreal/Udemy_강좌/GAS/대본/section3/Untitled.md",
-    "Unreal/Udemy_강좌/GAS/대본/section3/6. GAS Replication Mode.md",
-    "Unreal/Udemy_강좌/GAS/진도/1_Setting.md",
-    "Unreal/Udemy_강좌/GAS/대본/section3/5. GAS in Multiplayer.md",
-    "Unreal/Udemy_강좌/GAS/대본/section3/4. Ability System Component and AttributeSet.md",
-    "Unreal/Udemy_강좌/GAS/대본/section3/3. PlayerState.md",
-    "Unreal/Udemy_강좌/GAS/대본/section3/2. Main Parts of GAS.md",
-    "Unreal/Udemy_강좌/GAS/대본/section3/1.What is AbilitySystem.md",
-    "c++/STL/String.md",
-    "Unreal/Udemy_강좌/GAS/전체.md",
-    "Unreal/Udemy_강좌/GAS/대본/section3",
-    "Unreal/Udemy_강좌/GAS/대본/section2/15강(마우스로적인식3).md",
-    "Unreal/Udemy_강좌/GAS/대본/section2/14강(마우스로적인식2).md",
-    "Unreal/Udemy_강좌/GAS/대본/section2/13강(마우스로적인식).md",
-    "TIL/2025/4/04-22.md",
-    "Unreal/Udemy_강좌/GAS/대본/section2/11강.md",
-    "Unreal/Udemy_강좌/GAS/대본/section2/8강.md",
-    "Unreal/Udemy_강좌/GAS/대본/section2",
-    "Image/Unreal/GAS_Project_Character_And_Animation_Basic_Structure.png",
-    "Unreal/Animation/5_Animation_Blueprint.md",
-    "TIL/2025/4/04-21.md",
-    "Unreal/Udemy.md",
+    "Image/Unreal/Add_AnimationKey_To_ControlRig_with_Sequencer.png",
+    "Unreal/Animation/Animation Sequence.md",
+    "Unreal/Animation/Animation Sequencer.md",
+    "Untitled.md",
     "Untitled 1.md",
-    "Unreal/Animation/4_AnimInstance.md",
-    "Unreal/Animation/3_Character(Bind_Input_Action).md",
-    "Unreal/Animation/2_Input_Mapping_Context.md",
-    "Unreal/Animation/1_Input_Action.md",
-    "Unreal/Udemy_강좌/GAS/질문 목록.md",
-    "Unreal/Udemy_강좌/GAS/대본",
-    "Unreal/Udemy_강좌/GAS/진도",
-    "Unreal/Udemy 강좌/Untitled",
-    "Unreal/Udemy_강좌/GAS/섹션 6",
-    "Pasted image 20250410095934.png",
-    "Pasted image 20250410095818.png",
-    "Pasted image 20250410095510.png",
-    "Pasted image 20250410094914.png",
-    "Pasted image 20250410091428.png",
-    "Pasted image 20250410091208.png",
-    "Pasted image 20250410085117.png",
-    "Pasted image 20250410085038.png",
-    "Pasted image 20250410042810.png",
-    "Unreal/Udemy_강좌/GAS",
-    "Unreal/Udemy_강좌",
-    "Unreal/Build",
-    "TIL/2025/4"
+    "Visual_Studio/file.md",
+    "Visual_Studio/Setting.md",
+    "TIL/2025/5/05-21.md",
+    "TIL/2025/5/05-08.md",
+    "TIL/2025/5/05-09.md",
+    "TIL/2025/5/05-16.md",
+    "Unreal/Animation/Animation_Oprimization.md",
+    "Unreal/Animation/Animation_Blueprint_Functions.md",
+    "Unreal/Animation/Animation Heritage.md",
+    "Unreal/Animation/AimMontage.md",
+    "Unreal/Animation/7_Motion_Matching.md",
+    "Unreal/Animation/6_Chooser.md",
+    "Studio/Buildup.md",
+    "Git/Reset.md",
+    "Git/Push_&_Pull.md",
+    "Error/VS_Error.md",
+    "Error/Unreal_Error.md",
+    "Error/C++_Error.md",
+    "c++/WinAPI/function.md",
+    "c++/STL/Vector.md",
+    "c++/STL/String.md",
+    "Image/GAS_Project/GASproj_CreateABT.png",
+    "Studio",
+    "Image/Pasted image 20250218223134.png",
+    "Pasted image 20250621095200.png",
+    "Pasted image 20250621095318.png",
+    "Pasted image 20250621094644.png",
+    "Pasted image 20250621094826.png",
+    "Pasted image 20250621094947.png",
+    "Pasted image 20250621094606.png",
+    "Pasted image 20250621100658.png",
+    "Image/GAS_Project",
+    "Image/Unreal/GAS_Udemy",
+    "Unreal/Untitled",
+    "Unreal/Collision",
+    "Unreal/Widget",
+    "Git",
+    "TIL/2025/5",
+    "Unreal/Animation/Animation_Sample_Project_분석",
+    "Unreal/Project/PlayerAction_Project"
   ]
 }

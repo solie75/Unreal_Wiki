@@ -53,3 +53,26 @@ Collision Presets 를 Custom 으로 설정하면 Collision Enabled 를 직접 �
 
 # Overlap vs Hit
 
+# FDamageEvent,  FPointDamageEvent,  FRadialDamageEvent
+
+- FDamageEvent
+	- 기본적인 데미지 이벤트 
+	- 아무런 세부 정보도 포함하지 않는다.
+	- 단순히 수치만 전달할 때 사용.
+
+- FPointDamageEvent
+	- 단일 지점 데미지
+	- 한 지점에서 일어난 공격 (총알, 칼, 무기, 타격 등)
+	- `HitInfo`, `ShotDirection`, `BoneName` 같은 정보를 포함
+	- Hit Reaction 방향 분석, Bone 별 데미지 적용, 이펭트 재생 위치 지정 에 사용.
+
+- FRadialDamageEvent
+	- 범위 기반 데미지
+	- 한 지점에서 주변 반경으로 퍼지는 공격 ( 폭발, 마법 범위, 함정 등 )
+	- Origin, Params, ComponentHits 정보를 포함.
+	- 범위 안에 있는 모든 엑터에 데미지 분산 적용.
+	- 거리 기반 감쇠, 범위 기반 리액션 처리.
+
+- ref
+	- https://dev.epicgames.com/documentation/en-us/unreal-engine/API/Runtime/Engine/Engine/FPointDamageEvent
+	- 
