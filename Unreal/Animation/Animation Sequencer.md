@@ -1,6 +1,6 @@
 # Control Rig 에 Animation Key 이식
 
-![Add_AnimationKey_To_ControlRig](Add_AnimationKey_To_ControlRig_with_Sequencer.png)
+![Add_AnimationKey_To_ControlRig](../../Image/Unreal/Add_AnimationKey_To_ControlRig_with_Sequencer.png)
 1. Control Rig 에 Animation Sequence 의 Keyframe 이식.
 	1. Sequencer -> Add Actor -> Add ControlRig
 	2. ControlRig -> r click -> Import Anim Sequence Into The Section -> Select to import Animation Sequence
